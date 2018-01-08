@@ -1,0 +1,161 @@
+$backgroundColor: #514b56;
+$fontColor: #fff;
+$lineColor: #bb8d9c;
+$projectGutter: 4px;
+$linkColor: #cad0e5;
+$projectSideWidth: 100px;
+
+body {
+  background-color: $backgroundColor;
+  color: $fontColor;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+%sidebar {
+  > .subtitle {
+    font-size: 0.9rem;
+  }
+
+  > .links {
+    > li > a {
+      @extend %fancy-link;
+      font-size: 0.8rem;
+    }
+
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+.container {
+  > .sidebar {
+    @extend %sidebar;
+
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  > .main {
+    flex-grow: 1;
+  }
+
+  display: flex;
+  flex-direction: row;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%fancy-link {
+  &:visited {
+    color: $linkColor;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration-color: $lineColor;
+  }
+
+  color: $linkColor;
+  text-decoration-color: transparentize($lineColor, 1);
+  transition: text-decoration-color 0.2s;
+}
+
+%metadata {
+  > dl {
+    > dt {
+      color: darken($fontColor, 20%);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+    }
+
+    > dd {
+      a {
+        @extend %fancy-link;
+      }
+
+      font-size: 0.7rem;
+      margin-left: 0;
+      margin-bottom: 8px;
+    }
+
+    margin: 0;
+    margin-bottom: 16px;
+  }
+}
+
+%project-main {
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+  }
+
+  .subtitle {
+    font-size: 1.0rem;
+    font-weight: lighter;
+    margin-bottom: 8px;
+  }
+
+  .description {
+    a {
+      @extend %fancy-link;
+    }
+
+    font-size: 0.8rem;
+  }
+}
+
+.project-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-list-sm {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project {
+  > .metadata {
+    @extend %metadata;
+    $thumbSize: $projectSideWidth - 1 - ($projectGutter * 2);
+
+    > .thumbnail {
+      background: {
+        image: url(http://via.placeholder.com/200/200);
+        size: contain;
+      }
+      border: {
+        radius: 4px;
+        width: 1px;
+        color: $lineColor;
+        style: solid;
+      }
+      height: $thumbSize;
+      margin-bottom: 8px;
+      padding: $projectGutter;
+      width: $thumbSize;
+    }
+
+    > .link {
+      @extend %fancy-link;
+      font-size: 0.6rem;
+      text-transform: uppercase;
+    }
+
+    min-width: $projectSideWidth;
+    max-width: $projectSideWidth;
+  }
+
+  > .main {
+    @extend %project-main;
+
+    margin-left: $projectGutter;
+    padding-left: $projectGutter;
+
+    flex-grow: 1;
+  }
+
+  display: flex;
+  flex-direction: row;
+}

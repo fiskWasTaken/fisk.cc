@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+</head>
+<body>
+<section class="container">
+    <section class="sidebar">
+        <h1>fisk</h1>
+        <div class="subtitle">
+            Software developer
+        </div>
+        <ul class="links">
+            <li>
+                <a href="https://github.com/fiskie">GitHub</a>
+            </li>
+            <li>
+                <a href="http://steamcommunity.com/id/fiskie">Steam</a>
+            </li>
+        </ul>
+
+    </section>
+    <section class="main">
+        <h4>Projects</h4>
+        <ul class="project-list">
+            <li class="project">
+                <div class="metadata">
+                    <div class="thumbnail" style="background-image: url(/img/bptf.png);"></div>
+                    <dl>
+                        <dt>Date</dt>
+                        <dd>2013-</dd>
+                        <dt>Languages</dt>
+                        <dd>PHP, Python, TypeScript</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://backpack.tf" target="_blank">backpack.tf</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">backpack.tf</div>
+                    <div class="subtitle">The definitive TF2 price guide</div>
+                    <div class="description">
+                        <p>
+                            backpack.tf has served as the <em>de facto</em>
+                            <em><a href="http://www.teamfortress.com/" target="_blank">Team Fortress 2</a></em>
+                            price guide for several years.
+                            The Elasticsearch-powered stats database keeps track of hundreds of millions
+                            of items &mdash; this data is used by community members to
+                            determine prices and track the account history of fraudulently-traded items.
+                        </p>
+                        <p>
+                            backpack.tf also provides stats, inventory histories and market pricing for
+                            <em><a href="http://www.dota2.com/" target="_blank">Dota 2</a></em> and
+                            <em><a href="http://http://blog.counter-strike.net/" target="_blank">Counter-Strike: Global
+                                Offensive</a></em>.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="project">
+                <div class="metadata">
+                    <div class="thumbnail" style="background-image: url(/img/bazaar.png);"></div>
+                    <dl>
+                        <dt>Date</dt>
+                        <dd>2012-2014</dd>
+                        <dt>Languages</dt>
+                        <dd>PHP, JavaScript</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="http://bazaar.tf" target="_blank">Bazaar.tf</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">Bazaar.tf</div>
+                    <div class="subtitle">Cool trading site</div>
+                    <div class="description">
+                        <p>
+                            My first web project, a Steam trading site born out of frustration with similar sites
+                            of the time. This was a collaboration between me and
+                            <a href="http://steamcommunity.com/id/accell" target="blank">Accell</a>, an American web
+                            designer.
+                            This was created before I knew version control, so we were both uploading changes directly
+                            to the server with FTP, which kind of worked since we were doing different things.
+                        </p>
+                        <p>
+
+                        </p>
+                        <p>
+                            Bazaar.tf remains operable to this day after being passed on to new owners.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="project">
+                <div class="metadata">
+                    <div class="thumbnail" style="background-image: url(/img/twig.png);"></div>
+                    <dl>
+                        <dt>Date</dt>
+                        <dd>2017-</dd>
+                        <dt>Language</dt>
+                        <dd>Kotlin</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://github.com/fiskie/idea-community-twig" target="_blank">idea-community-twig
+                            on GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">(WIP) idea-community-twig</div>
+                    <div class="subtitle">Open-source Twig plugin for IntelliJ IDEA</div>
+                    <div class="description">
+                        <p>
+                            A work in progress, because I feel the closed-source official plugin is a little lackluster.
+                            This IDEA plugin provides custom language support for the
+                            <a href="https://twig.symfony.com/" target="_blank">Twig</a> templating engine.
+                        </p>
+                        <p>
+                            Built with extensions in mind, this plugin correctly recognises and indents custom tags.
+                            The plugin also provides smart completion for whitespace control modifiers.
+                        </p>
+                        <p>
+                            This plugin will be released on the repository once it meets feature parity with the
+                            official plugin (and gets some good performance tuning).
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <h4>
+            FOSS Libraries
+        </h4>
+        <ul class="project-list-sm">
+            <li class="project">
+                <div class="metadata">
+                    <dl>
+                        <dt>Language</dt>
+                        <dd>PHP</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://github.com/fiskie/php-steamrep-api" target="_blank">php-steamrep-api
+                            on GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">php-steamrep-api</div>
+                    <div class="subtitle">SteamRep reputation web API wrapper</div>
+                    <div class="description">
+                        <p>
+                            <a href="http://steamrep.com/" target="_blank">SteamRep</a> reputation web API wrapper.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="project">
+                <div class="metadata">
+                    <dl>
+                        <dt>Language</dt>
+                        <dd>PHP</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://github.com/fiskie/php-marketplace-tf-api" target="_blank">php-marketplace-tf-api
+                            on GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">php-marketplace-tf-api</div>
+                    <div class="subtitle">Marketplace.tf web API wrapper</div>
+                    <div class="description">
+                        <p>
+                            <a href="http://marketplace.tf/" target="_blank">Marketplace.tf</a> web API wrapper.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="project">
+                <div class="metadata">
+                    <dl>
+                        <dt>Language</dt>
+                        <dd>PHP</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://github.com/fiskie/php-steam-inventory" target="_blank">php-steam-inventory
+                            on GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">php-steam-inventory</div>
+                    <div class="subtitle">Steam Community inventory web API bindings</div>
+                    <div class="description">
+                        <p>
+                            This library is designed to deal with the typical use case of the Steam Community
+                            inventory APIs. It performs paginated HTTP requests behind a cursor, and provides an abstract
+                            representation of the response to pair item descriptions with asset data.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="project">
+                <div class="metadata">
+                    <dl>
+                        <dt>Language</dt>
+                        <dd>PHP</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://github.com/fiskie/mongostash" target="_blank">mongostash
+                            on GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">mongostash</div>
+                    <div class="subtitle">MongoDB driver for Stash</div>
+                    <div class="description">
+                        <p>
+                            A MongoDB driver for the <a href="https://github.com/tedious/Stash" target="_blank">Stash</a>
+                            PSR-compliant caching library.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <h4>Fun stuff</h4>
+        <ul class="project-list-sm">
+            <li class="project">
+                <div class="metadata">
+                    <dl>
+                        <dt>Language</dt>
+                        <dd>C++</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://github.com/fiskie/asteroids" target="_blank">asteroids on
+                            GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">Asteroids</div>
+                    <div class="subtitle">C++/SFML Asteroids clone</div>
+                    <div class="description">
+                        <p>
+                            A small game I wrote to learn the ropes of <a href="https://www.sfml-dev.org/"
+                                                                          target="_blank">SFML</a>.
+                            It features a collision engine implemented with the
+                            <a href="https://en.wikipedia.org/wiki/Hyperplane_separation_theorem" target="_blank">hyperplane
+                                separation theorem</a>,
+                            and support for multiple players.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="project">
+                <div class="metadata">
+                    <dl>
+                        <dt>Language</dt>
+                        <dd>Obj-C</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://github.com/fiskie/jsrl" target="_blank">jsrl on
+                            GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">JetSetRadio.live for iOS</div>
+                    <div class="subtitle">Faux-radio client</div>
+                    <div class="description">
+                        <p>
+                            An iOS client for <a href="http://jetsetradio.live/" target="_blank">JetSetRadio.live</a>.
+                            Never saw the light of day because publishing anything for iOS illegally or not is a nightmare.
+                            Don't make me touch Obj-C again, thank-you.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+</section>
+</body>
+</html>
