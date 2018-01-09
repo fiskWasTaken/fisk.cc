@@ -6,17 +6,23 @@ body {
 .container > .sidebar > .subtitle {
   font-size: 0.9rem; }
 .container > .sidebar > .links {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
   padding-left: 0; }
   .container > .sidebar > .links > li > a {
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    margin-right: 8px; }
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto; }
+  @media (min-width: 720px) {
+    .container {
+      flex-direction: row; } }
   .container > .sidebar {
     min-width: 200px;
     max-width: 200px; }
