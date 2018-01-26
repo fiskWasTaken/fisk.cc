@@ -3,6 +3,15 @@ body {
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+footer {
+  display: flex;
+  justify-content: center;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto; }
+  footer p {
+    font-size: 0.7em; }
+
 .container > .sidebar > .subtitle {
   font-size: 0.9rem; }
 .container > .sidebar > .links {
@@ -29,14 +38,14 @@ body {
   .container > .main {
     flex-grow: 1; }
 
-.container > .sidebar > .links > li > a, .project > .metadata > dl > dd a, .project > .main .description a, .project > .metadata > .link {
+a, footer p a, .container > .sidebar > .links > li > a, .project > .metadata > dl > dd a, .project > .main .description a, .project > .metadata > .link {
   color: #cad0e5;
   text-decoration-color: rgba(187, 141, 156, 0);
   transition: text-decoration-color 0.2s; }
-  .container > .sidebar > .links > li > a:visited, .project > .metadata > dl > dd a:visited, .project > .main .description a:visited, .project > .metadata > .link:visited {
+  a:visited, .container > .sidebar > .links > li > a:visited, .project > .metadata > dl > dd a:visited, .project > .main .description a:visited, .project > .metadata > .link:visited {
     color: #cad0e5;
     text-decoration: none; }
-  .container > .sidebar > .links > li > a:hover, .project > .metadata > dl > dd a:hover, .project > .main .description a:hover, .project > .metadata > .link:hover {
+  a:hover, .container > .sidebar > .links > li > a:hover, .project > .metadata > dl > dd a:hover, .project > .main .description a:hover, .project > .metadata > .link:hover {
     text-decoration-color: #bb8d9c; }
 
 .project > .metadata > dl {
