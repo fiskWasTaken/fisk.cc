@@ -4,6 +4,7 @@ $lineColor: #bb8d9c;
 $projectGutter: 4px;
 $linkColor: #cad0e5;
 $projectSideWidth: 100px;
+$width: 900px;
 
 body {
   background-color: $backgroundColor;
@@ -18,7 +19,7 @@ a {
 footer {
   display: flex;
   justify-content: center;
-  max-width: 1024px;
+  max-width: $width;
   margin-left: auto;
   margin-right: auto;
 
@@ -68,7 +69,7 @@ footer {
 
   display: flex;
   flex-direction: column;
-  max-width: 1024px;
+  max-width: $width;
   margin-left: auto;
   margin-right: auto;
 }

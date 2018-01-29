@@ -6,7 +6,7 @@ body {
 footer {
   display: flex;
   justify-content: center;
-  max-width: 1024px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto; }
   footer p {
@@ -26,7 +26,7 @@ footer {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 1024px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 720px) {
