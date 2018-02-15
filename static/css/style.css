@@ -38,6 +38,13 @@ footer {
   .container > .main {
     flex-grow: 1; }
 
+.post img {
+  width: 100%; }
+  @media (min-width: 720px) {
+    .post img {
+      width: auto;
+      max-width: 900px; } }
+
 a, footer p a, .container > .sidebar > .links > li > a, .project > .metadata > dl > dd a, .project > .main .description a, .project > .metadata > .link {
   color: #cad0e5;
   text-decoration-color: rgba(187, 141, 156, 0);

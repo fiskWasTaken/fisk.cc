@@ -11,6 +11,14 @@
     <div class="content">
         <div class="post">
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+            {{ if .Params.tags }}
+            <span class="post-tags">
+		  	{{ range .Params.tags }}
+			          #<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
+		  	{{ end }}
+		    </span>
+            {{ end }}
             <div class="post-content">
                 {{ .Content }}
             </div>

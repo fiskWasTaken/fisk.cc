@@ -1,7 +1,7 @@
 ---
 title: "Code Auditing for Non-Programmers"
 date: 2018-01-29T12:35:18Z
-tags: ["misc"]
+tags: ["programming"]
 ---
 
 I can't believe this. Someone actually went and implemented the attack vector described in [an article posted earlier this month](https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5). **Tl;dr**: Malicious payload stored in an application dependency.

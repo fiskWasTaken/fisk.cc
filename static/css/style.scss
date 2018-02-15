@@ -74,6 +74,17 @@ footer {
   margin-right: auto;
 }
 
+.post {
+  img {
+    @media (min-width: 720px) {
+      width: auto;
+      max-width: $width;
+    }
+
+    width: 100%;
+  }
+}
+
 %fancy-link {
   &:visited {
     color: $linkColor;
