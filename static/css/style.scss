@@ -5,6 +5,7 @@ $projectGutter: 4px;
 $linkColor: #cad0e5;
 $projectSideWidth: 100px;
 $width: 900px;
+$min-desktop: 720px;
 
 body {
   background-color: $backgroundColor;
@@ -52,12 +53,16 @@ footer {
 }
 
 .container {
-  @media (min-width: 720px) {
-    flex-direction: row;
+  @media (min-width: $min-desktop) {
+    flex-direction: row-reverse;
   }
 
   > .sidebar {
     @extend %sidebar;
+
+    @media (min-width: $min-desktop) {
+      width: auto;
+    }
 
     min-width: 200px;
     max-width: 200px;
@@ -65,6 +70,12 @@ footer {
 
   > .main {
     flex-grow: 1;
+    margin-right: 0;
+
+    @media (min-width: $min-desktop) {
+      margin-right: 4px;
+    }
+
   }
 
   display: flex;
@@ -198,3 +209,24 @@ footer {
   display: flex;
   flex-direction: row;
 }
+
+.post {
+  .post-title {
+    margin-bottom: 0.2em;
+  }
+
+  &.post-summary {
+    .post-title {
+      font-size: 0.9em;
+    }
+
+    .post-date {
+      font-size: 0.8em;
+    }
+
+    .post-tags {
+      font-size: 0.8em;
+    }
+  }
+}
+
