@@ -2,6 +2,7 @@
 title: "That time I was assaulted by staff at Multiplay Insomnia"
 date: 2018-02-15T07:00:00Z
 tags: ["misc"]
+draft: true
 ---
 
 Imprisonment is an injury, regardless of how you justify it.
