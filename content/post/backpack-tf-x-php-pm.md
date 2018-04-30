@@ -11,13 +11,21 @@ PHP-PM is based on ReactPHP, a project that adds event-driven programming to the
 
 Until now, PHP has never really acted as a server in its own right. PHP-FPM merely delegates requests to a number of idle PHP instances, and as soon as a response is dispatched the process starts from scratch again. With ReactPHP, and by extension PHP-PM, PHP is now equipped with the means to overcome even the flexibility of a MEAN stack.
 
+![bp-db](/img/blog/ppm-bp-db.png)
+
+Database load has nearly halved, thanks to the use of more efficient caching strategies. Inventory load times have been cut down exponentially.
+
+![workers](/img/blog/ppm-workers.png)
+
+PHP is at the point where it is mature enough to act as a server in its own right.
+
 So, this is how we got backpack.tf, a formerly naive and simple PHP application, running under PHP-PM. I'm going to try and write this in a way that reinforces some important concepts about the architecture PHP has formerly lacked.
 
 ## Setting up PHP-PM for development
 
 Similar to the built-in PHP server, PHP-PM can run standalone and serve static files.
 
-In debug mode, it will detect changes to PHP files that have been loaded in memory and reload itself. Unfortunately, this behaviour isn't perfect: we're using Twig, whose file loader will keep templates in memory even if all caching options are disabled, and it won't detect changes to non-PHP files. This is something I've yet to work around. TK  
+In debug mode, it will detect changes to PHP files that have been loaded in memory and reload itself. Unfortunately, this behaviour isn't perfect: we're using Twig, whose file loader will keep templates in memory even if all caching options are disabled.    
 
 So you can check for persistence bugs (or optimisations) later, set the number of workers to 1.
 
@@ -76,6 +84,12 @@ It is very important you internalise that you are no longer writing scripts that
 * Fine-tune what data is kept between requests, and use PHP memory as a primary cache layer.
 * Keep database handles open, eliminating the overhead of opening and closing connections per request. 
 
+### Better than Redis: in-memory cache
+
+If you're using a composite caching library that interfaces with Redis or another cache provider, you should take advantage of PHP's own memory.
+
+backpack.tf's cache implementation for the item schema and item prices  
+
 ## In Production
 
 First things first, you will definitely want to put PHP-PM behind nginx just as you would with PHP-FPM. This is to defer static file handling to nginx, so only actual page requests are sent upstream.
@@ -85,3 +99,5 @@ The official documentation recommends you to set the number of workers to CPU co
 ## drafts
 
 For PHP-PM to be implemented properly, one should have a solid understanding of how HTTP requests work. 
+
+PHP-PM is still a bit buggy. I'm using [my own fork](https://github.com/fiskie/php-pm), as there were some issues running it with a high number of workers.
