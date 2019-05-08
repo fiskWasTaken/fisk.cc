@@ -173,6 +173,8 @@ footer {
     > .thumbnail {
       background: {
         image: url(http://via.placeholder.com/200/200);
+        position: center;
+        repeat: no-repeat;
         size: contain;
       }
       border: {

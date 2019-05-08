@@ -5,30 +5,54 @@
 
 <body>
 <section class="container">
-    <section class="sidebar">
-        <h1>fisk</h1>
-        <div class="subtitle">
-            Data engineer
-        </div>
-        <ul class="links">
-            <li>
-                <a href="https://github.com/fiskie">GitHub</a>
-            </li>
-            <li>
-                <a href="http://steamcommunity.com/id/fiskie">Steam</a>
-            </li>
-            <li>
-                <a href="https://twitter.com/__fisk">Twitter</a>
-            </li>
-        </ul>
-        <h4>Posts</h4>
-        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 5 }} {{ range $paginator.Pages }}
-        {{ partial "post.html" . }}
-        {{ end }}
-    </section>
     <section class="main">
-        <h4>Projects</h4>
+        <h1>hello</h1>
+        <p>
+            I'm fisk, I used to program a lot but now I pretty much sit around drawing instead
+        </p>
+        <p>
+            Follow me on <a href="https://twitter.com/__fisk">Twitter</a> it's great
+        </p>
+    </section>
+</section>
+<section class="container">
+    <section>
+        <h3>What I've done before</h3>
         <ul class="project-list">
+            <li class="project">
+                <div class="metadata">
+                    <div class="thumbnail"
+                         style="background-image: url(/img/skullcat3.png);"></div>
+                    <dl>
+                        <dt>Date</dt>
+                        <dd>2019-</dd>
+                        <dt>Language</dt>
+                        <dd>TypeScript</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link" href="https://royale.pet">royale.pet</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">royale.pet</div>
+                    <div class="subtitle">Statistics and Leaderboards for Super Animal Royale
+                    </div>
+                    <div class="description">
+                        <p>
+                            I figured out how to get into their backend pretty early on, so this came about. I added
+                            leaderboards,
+                            since people wanted this data and SAR was unable to provide it in the game client due to a
+                            very messy game DB.
+                        </p>
+                        <p>
+                            A venture into a JS-only stack. I don't really work on it much because they told me they'd
+                            probably kill the site at any point if they wanted. Oh well.
+                        </p>
+                        <p>
+                            Now we just need people playing the game...
+                        </p>
+                    </div>
+                </div>
+            </li>
             <li class="project">
                 <div class="metadata">
                     <div class="thumbnail"
@@ -39,8 +63,7 @@
                         <dt>Languages</dt>
                         <dd>PHP, Python, TypeScript</dd>
                         <dt>Project URL</dt>
-                        <dd><a class="link" href="https://backpack.tf"
-                               target="_blank">backpack.tf</a></dd>
+                        <dd><a class="link" href="https://backpack.tf">backpack.tf</a></dd>
                     </dl>
                 </div>
                 <div class="main">
@@ -50,7 +73,7 @@
                         <p>
                             backpack.tf has served as the <em>de facto</em>
                             <em><a href="http://www.teamfortress.com/"
-                                   target="_blank">Team Fortress 2</a></em>
+                            >Team Fortress 2</a></em>
                             price guide for several years.
                             The Elasticsearch-powered stats database keeps track
                             of hundreds of millions
@@ -62,10 +85,10 @@
                         <p>
                             backpack.tf also provides stats, inventory histories
                             and market pricing for
-                            <em><a href="http://www.dota2.com/" target="_blank">Dota
+                            <em><a href="http://www.dota2.com/">Dota
                                 2</a></em> and
                             <em><a href="http://blog.counter-strike.net/"
-                                   target="_blank">Counter-Strike: Global
+                            >Counter-Strike: Global
                                 Offensive</a></em>.
                         </p>
                     </div>
@@ -81,8 +104,7 @@
                         <dt>Languages</dt>
                         <dd>PHP, JavaScript</dd>
                         <dt>Project URL</dt>
-                        <dd><a class="link" href="http://bazaar.tf"
-                               target="_blank">Bazaar.tf</a></dd>
+                        <dd><a class="link" href="http://bazaar.tf">Bazaar.tf</a></dd>
                     </dl>
                 </div>
                 <div class="main">
@@ -94,14 +116,14 @@
                             of frustration with similar sites
                             of the time. This was a collaboration between me and
                             <a href="http://steamcommunity.com/id/accell"
-                               target="_blank">Accell</a>, an American web
+                            >Accell</a>, an American web
                             designer.
                         </p>
                         <p>
                             Bazaar.tf managed to find a niche through the
                             auction feature, which proved popular
                             with users. We also hosted events such as <a
-                                href="http://bazaar.tf/crystal" target="_blank">The
+                                href="http://bazaar.tf/crystal">The
                             Crystal Bazaar</a>,
                             which allowed users to enter a prize draw through
                             playing various HTML5 puzzles.
@@ -109,50 +131,6 @@
                         <p>
                             Bazaar.tf remains operable to this day after being
                             passed on to new owners.
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <li class="project">
-                <div class="metadata">
-                    <div class="thumbnail"
-                         style="background-image: url(/img/twig.png);"></div>
-                    <dl>
-                        <dt>Date</dt>
-                        <dd>2017-</dd>
-                        <dt>Language</dt>
-                        <dd>Kotlin</dd>
-                        <dt>Project URL</dt>
-                        <dd><a class="link"
-                               href="https://github.com/fiskie/idea-community-twig"
-                               target="_blank">idea-community-twig
-                            on GitHub</a></dd>
-                    </dl>
-                </div>
-                <div class="main">
-                    <div class="title">(WIP) idea-community-twig</div>
-                    <div class="subtitle">Open-source Twig plugin for IntelliJ
-                        IDEA
-                    </div>
-                    <div class="description">
-                        <p>
-                            A work in progress, because I feel the closed-source
-                            official plugin is a little lackluster.
-                            This IDEA plugin provides custom language support
-                            for the
-                            <a href="https://twig.symfony.com/" target="_blank">Twig</a>
-                            templating engine.
-                        </p>
-                        <p>
-                            Built with extensions in mind, this plugin correctly
-                            recognises and indents custom tags.
-                            The plugin also provides smart completion for
-                            whitespace control modifiers.
-                        </p>
-                        <p>
-                            This plugin will be released on the repository once
-                            it meets feature parity with the
-                            official plugin.
                         </p>
                     </div>
                 </div>
@@ -166,11 +144,32 @@
                 <div class="metadata">
                     <dl>
                         <dt>Language</dt>
+                        <dd>Go</dd>
+                        <dt>Project URL</dt>
+                        <dd><a class="link"
+                               href="https://github.com/fiskie/go-clash">go-clash
+                            on GitHub</a></dd>
+                    </dl>
+                </div>
+                <div class="main">
+                    <div class="title">go-clash</div>
+                    <div class="subtitle">Clash Royale Go API bindings
+                    </div>
+                    <div class="description">
+                        <p>
+                            Go API bindings for the semi-open Clash Royale API.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="project">
+                <div class="metadata">
+                    <dl>
+                        <dt>Language</dt>
                         <dd>PHP</dd>
                         <dt>Project URL</dt>
                         <dd><a class="link"
-                               href="https://github.com/fiskie/php-steamrep-api"
-                               target="_blank">php-steamrep-api
+                               href="https://github.com/fiskie/php-steamrep-api">php-steamrep-api
                             on GitHub</a></dd>
                     </dl>
                 </div>
@@ -180,7 +179,7 @@
                     </div>
                     <div class="description">
                         <p>
-                            <a href="http://steamrep.com/" target="_blank">SteamRep</a>
+                            <a href="http://steamrep.com/">SteamRep</a>
                             reputation web API wrapper.
                         </p>
                     </div>
@@ -193,8 +192,7 @@
                         <dd>PHP</dd>
                         <dt>Project URL</dt>
                         <dd><a class="link"
-                               href="https://github.com/fiskie/php-marketplace-tf-api"
-                               target="_blank">php-marketplace-tf-api
+                               href="https://github.com/fiskie/php-marketplace-tf-api">php-marketplace-tf-api
                             on GitHub</a></dd>
                     </dl>
                 </div>
@@ -203,7 +201,7 @@
                     <div class="subtitle">Marketplace.tf web API wrapper</div>
                     <div class="description">
                         <p>
-                            <a href="http://marketplace.tf/" target="_blank">Marketplace.tf</a>
+                            <a href="http://marketplace.tf/">Marketplace.tf</a>
                             web API wrapper.
                         </p>
                     </div>
@@ -216,8 +214,7 @@
                         <dd>PHP</dd>
                         <dt>Project URL</dt>
                         <dd><a class="link"
-                               href="https://github.com/fiskie/php-steam-inventory"
-                               target="_blank">php-steam-inventory
+                               href="https://github.com/fiskie/php-steam-inventory">php-steam-inventory
                             on GitHub</a></dd>
                     </dl>
                 </div>
@@ -245,8 +242,7 @@
                         <dd>PHP</dd>
                         <dt>Project URL</dt>
                         <dd><a class="link"
-                               href="https://github.com/fiskie/mongostash"
-                               target="_blank">mongostash
+                               href="https://github.com/fiskie/mongostash">mongostash
                             on GitHub</a></dd>
                     </dl>
                 </div>
@@ -256,8 +252,7 @@
                     <div class="description">
                         <p>
                             A MongoDB driver for the <a
-                                href="https://github.com/tedious/Stash"
-                                target="_blank">Stash</a>
+                                href="https://github.com/tedious/Stash">Stash</a>
                             PSR-compliant caching library.
                         </p>
                     </div>
@@ -273,8 +268,7 @@
                         <dd>C++</dd>
                         <dt>Project URL</dt>
                         <dd><a class="link"
-                               href="https://github.com/fiskie/asteroids"
-                               target="_blank">asteroids on
+                               href="https://github.com/fiskie/asteroids">asteroids on
                             GitHub</a></dd>
                     </dl>
                 </div>
@@ -284,11 +278,10 @@
                     <div class="description">
                         <p>
                             A small game I wrote to learn the ropes of <a
-                                href="https://www.sfml-dev.org/"
-                                target="_blank">SFML</a>.
+                                href="https://www.sfml-dev.org/">SFML</a>.
                             It features a collision engine implemented with the
                             <a href="https://en.wikipedia.org/wiki/Hyperplane_separation_theorem"
-                               target="_blank">hyperplane
+                            >hyperplane
                                 separation theorem</a>,
                             and support for multiple players.
                         </p>
@@ -302,8 +295,7 @@
                         <dd>Swift</dd>
                         <dt>Project URL</dt>
                         <dd><a class="link"
-                               href="https://github.com/fiskie/jsrl"
-                               target="_blank">jsrl on
+                               href="https://github.com/fiskie/jsrl">jsrl on
                             GitHub</a></dd>
                     </dl>
                 </div>
@@ -312,8 +304,7 @@
                     <div class="subtitle">Faux-radio client</div>
                     <div class="description">
                         <p>
-                            An iOS client for <a href="http://jetsetradio.live/"
-                                                 target="_blank">JetSetRadio.live</a>.
+                            An iOS client for <a href="http://jetsetradio.live/">JetSetRadio.live</a>.
                             Never saw the light of day because publishing
                             anything for iOS illegally or not is a nightmare.
                             Don't make me touch Swift again, thank-you.
