@@ -1,0 +1,22 @@
+<li class="game">
+    <div class="thumbnail" style="background-image: url({{ .imageUrl }});"></div>
+    <div class="main">
+        <div class="header">
+            <div class="title">
+                {{ .name }}
+            </div>
+            <div class="release-date">
+                {{ .date }} &bull; {{ .platform }}
+            </div>
+        </div>
+        <div class="summary">
+            {{ .summary }}
+        </div>
+        <div class="description">
+            {{ .description }}
+        </div>
+        <footer>
+            <a href="{{ .url }}" class="btn-play">Play!</a> {{ .urlText }}
+        </footer>
+    </div>
+</li>

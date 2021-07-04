@@ -1,0 +1,98 @@
+@import "common";
+
+%game-header {
+  .title {
+    font-size: x-large;
+    flex-grow: 1;
+    font-family: 'Alfa Slab One', cursive;
+  }
+
+  .release-date {
+    font-size: small;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.game {
+  > .thumbnail {
+    border-radius: 1em;
+    width: 10em;
+    height: 10em;
+    background-size: cover;
+    margin: 0.5em;
+    flex-shrink: 0;
+  }
+
+  > .main {
+    margin: {
+      top: .5em;
+      right: .5em;
+      bottom: .5em;
+    }
+
+    > .header {
+      @extend %game-header;
+    }
+
+    .summary {
+      font-style: italic;
+      margin-bottom: 1em;
+      font-size: smaller;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    > .description {
+      margin-bottom: .5em;
+      flex-grow: 1;
+    }
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .btn-play {
+    $color: #f35a5a;
+
+    background-color: $color;
+
+    border: {
+      radius: .5em;
+      color: darken($color, 20%);
+      width: .15em;
+      style: solid;
+    }
+
+    color: #fff;
+    display: inline-block;
+    padding: .2em .6em;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: large;
+
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  background-color: #8e5656;
+  background-image: linear-gradient(90deg, #8e5656 0%, #8d598e 100%);
+
+  &:nth-of-type(2) {
+    background-image: linear-gradient(90deg, #568e86 0%, #5e598e 100%);
+  }
+
+  border-radius: 1em;
+  box-shadow: #310c32 .5em .5em 1em;
+  display: flex;
+
+  margin: {
+    bottom: 1em;
+    right: 1em;
+  }
+}
+

@@ -1,3 +1,4 @@
 baseURL = "https://fisk.cc/"
 languageCode = "en-us"
 title = "fisk.cc"
+enableGitInfo = true

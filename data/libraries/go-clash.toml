@@ -1,0 +1,6 @@
+name="go-clash"
+summary="Clash Royale Go API bindings"
+description="Go bindings for the semi-open Clash Royale API."
+language="Go"
+url="https://github.com/fisuku/go-clash"
+urlText="GitHub"

@@ -1,0 +1,45 @@
+$backgroundColor: #514b56;
+$fontColor: #fff;
+$lineColor: #bb8d9c;
+$projectGutter: 0em;
+$linkColor: #cad0e5;
+$projectSideWidth: 10em;
+$width: 900px;
+$min-desktop: 720px;
+
+%fancy-link {
+  &:visited {
+    color: $linkColor;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration-color: $lineColor;
+  }
+
+  color: $linkColor;
+  text-decoration-color: transparentize($lineColor, 1);
+  transition: text-decoration-color 0.2s;
+}
+
+%metadata {
+  > dl {
+    > dt {
+      color: darken($fontColor, 20%);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+    }
+
+    > dd {
+      a {
+        @extend %fancy-link;
+      }
+
+      font-size: 0.7rem;
+      margin-left: 0;
+      margin-bottom: 8px;
+    }
+
+    margin: 0 0 16px;
+  }
+}

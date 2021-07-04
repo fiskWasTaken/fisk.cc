@@ -1,0 +1,113 @@
+@import "common";
+@import "project";
+@import "game";
+
+body {
+  background-color: $backgroundColor;
+  color: $fontColor;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  @extend %fancy-link;
+}
+
+body > footer {
+  display: flex;
+  justify-content: center;
+  max-width: $width;
+  margin-left: auto;
+  margin-right: auto;
+
+  p {
+    a {
+      @extend %fancy-link;
+    }
+
+    font-size: 0.7em;
+  }
+}
+
+%sidebar {
+  > .subtitle {
+    font-size: 0.9rem;
+  }
+
+  > .links {
+    > li > a {
+      @extend %fancy-link;
+      font-size: 0.8rem;
+      margin-right: 8px;
+    }
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+.container {
+  @media (min-width: $min-desktop) {
+    flex-direction: row-reverse;
+  }
+
+  > .sidebar {
+    @extend %sidebar;
+
+    @media (min-width: $min-desktop) {
+      width: auto;
+    }
+
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  > .main {
+    flex-grow: 1;
+    margin-right: 0;
+
+    @media (min-width: $min-desktop) {
+      margin-right: 4px;
+    }
+
+  }
+
+  display: flex;
+  flex-direction: column;
+  max-width: $width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post {
+  img {
+    @media (min-width: 720px) {
+      width: auto;
+      max-width: $width;
+    }
+
+    width: 100%;
+  }
+}
+
+.project-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-list-sm {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+
+  li + li {
+    margin-left: .5em;
+  }
+}

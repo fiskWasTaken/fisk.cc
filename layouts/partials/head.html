@@ -1,14 +1,19 @@
 
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 <head>
+    {{ $options := (dict "transpiler" "libsass" "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{ $sass := resources.Get "sass/style.scss" }}
+    {{ $style := $sass | resources.ToCSS }}
     <meta charset="utf-8">
     <meta name="description" content="{{ if eq .Description "" }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
     <meta name="keywords" content="{{ delimit .Keywords  "," }}">
     <meta name="author" content="{{ .Site.Params.author }}">
-    {{ .Hugo.Generator }}
+    {{ hugo.Generator }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ "/css/style.css" | absURL }}"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
     <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
 </head>

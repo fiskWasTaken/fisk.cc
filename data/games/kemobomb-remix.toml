@@ -1,0 +1,8 @@
+name = "Kemobomb Remix"
+description = "Building on top of Kemobomb, Remix packs in many new effects and gamemodes without leaving the confines of Pico-8."
+summary = "Kemobomb is back!!"
+platform = "Pico-8"
+date = "2021"
+url = "https://kemohaus.itch.io/kemobomb-remix"
+urlText = "itch.io"
+imageUrl = "/img/kemobomb-remix.png"
