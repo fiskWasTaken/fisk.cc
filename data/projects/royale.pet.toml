@@ -1,8 +1,0 @@
-name = "royale.pet"
-description = "This is the result of me reverse engineering the Super Animal Royale binary to get ahold of the Playfab API key they use. The site's been going for two years, and people still use it pretty regularly, so I assume they're okay with it!"
-summary = "Statistics and leaderboards for Super Animal Royale"
-language = "TypeScript"
-date = "2019-"
-url = "https://royale.pet"
-urlText = "royale.pet"
-imageUrl = "/img/skullcat3.png"

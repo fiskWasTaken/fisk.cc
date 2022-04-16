@@ -1,8 +1,0 @@
-name = "Kemobomb Genesis"
-description = "WIP port of Kemobomb to the Sega Mega Drive using SGDK."
-summary = "Puyo for a new generation!"
-platform = "Sega Mega Drive"
-date = "2021-"
-url = ""
-urlText = "Coming Eventually"
-imageUrl = "/img/kemobomb-grey.png"
