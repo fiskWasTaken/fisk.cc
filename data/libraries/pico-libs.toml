@@ -1,0 +1,6 @@
+name="pico-libs"
+summary="Pico8 helper libraries"
+description="Pico8 code snippets used in my Pico8 projects, designed for granular import."
+language="Lua"
+url="https://github.com/fiskWasTaken/pico-libs"
+urlText="GitHub"
