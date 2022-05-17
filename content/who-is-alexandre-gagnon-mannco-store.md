@@ -3,8 +3,6 @@ title: "Who is Alexandre Gagnon?"
 date: 2022-05-17T18:03:00+01:00
 ---
 
-# Who is Alexandre Gagnon?
-
 I've had many run-ins with Alexandre Gagnon, aka Peanuthero / Alex. People do not seem to be aware that he is a career criminal.
 
 Despite a series of coincidences, Alex will vehemently deny he is Peanuthero. Unfortunately, Alex's modus operandi of feigned legal threats and DDoS attacks work against him, and there are many ties between the two personas.
@@ -47,9 +45,9 @@ Peanuthero received a SteamRep tag after it was revealed one his bots, for some 
 
 Soon, Peanuthero "stepped down" from mannco.*, and Alex took his place. Nobody knew who Alex was, and it was rumoured, but never proven, that him and Peanuthero was the same person.
 
-Alex took to attacking ScrapTF related sites in late 2020. 
+Alex took to attacking ScrapTF related sites with DDoS tools in late 2020. 
 
-One night, Alex was scouring pages of backpack.tf to launch DDoS attacks on from his home IP address. Alex was logged out of the site, but cross-referencing our server logs and IP logs for his own user account directed us to him. This led us to investigate and connect their identities. 
+One night, Alex was scouring pages of backpack.tf to launch DDoS attacks on from his home IP address. Alex was logged out of the site, but backpack.tf permanently stores IP records per user account. We were able to cross-reference an IP address that was navigating to pages before a booter would run on that route, and an IP address recently used by Alex. This led us to investigate and connect their identities. 
 
 The mannco.store staff were promptly banned from backpack.tf, and we requested SteamRep to apply Alex's SteamRep tag to his new account. This prompted the mannco.store staff to make [this post](https://archive.ph/hkDUL), where they, again, make the claim that they are two separate people.
 
@@ -57,4 +55,4 @@ The mannco.store staff were promptly banned from backpack.tf, and we requested S
 
 Alex lies as a defense mechanism. Alex will never admit his past identity, and would rather you believe that they are separate people: that Peanuthero just vanished off of the internet, and it was just a freaky coincidence that they had the same name, place of work, place of living. 
 
-Of course, this is ridiculous. 
+Of course, this is ridiculous.
