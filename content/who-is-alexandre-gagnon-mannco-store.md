@@ -63,7 +63,7 @@ Another reputable user investigated Alex's cryptocurrency wallet transfers and i
 
 Alex's Peanuthero account eventually got banned from the forum in July 2016. Alex would return and [sign up to HackForums with sock accounts](/archive/bpservers-ru-sock.html) to continue advertising his own services. Seasoned users identified him almost immediately. This sock was banned from the forums, and Alex immediately cut access for the users who paid for his service.
 
-Alex returned a second time as 'manandco' (mannco?) to advertise another offshore service, ShadowHosting. Just like prior projects, this was another snake oil hosting service claiming to operate out of the Seychelles, but [traced to the Netherlands](/archive/Community%20Alert%20Shadowhosting.net%20-%20Fake%20Bullet%20Proof%20Hosting%20-%20Ban%20Evasion%20-%20Proxy%20Selling%20-%20Printable Version.html).
+Alex returned a second time as 'manandco' (mannco?) to advertise another offshore service, ShadowHosting. Just like prior projects, this was another snake oil hosting service claiming to operate out of the Seychelles, but [traced to the Netherlands](/archive/shadowhosting.html).
 
 After being banned, Alex would continue hosting payment portals for BPServers.ru [through to 2017](https://web.archive.org/web/20170710174638/https://bpservers.ru/), even though the client area was abandoned and could no longer be used.
 
