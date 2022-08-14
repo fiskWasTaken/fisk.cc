@@ -1,8 +1,0 @@
-name = "Kemobomb"
-description = "The first major Pico-8 release for KEMOHAUS. Kemobomb is a Puyo-like complete with a character creator used to generate avatars of characters in the game."
-summary = "Puyo with a twist!"
-platform = "Pico-8"
-date = "2020"
-url = "https://www.lexaloffle.com/bbs/?pid=73678"
-urlText = "lexaloffle"
-imageUrl = "/img/kemobomb.png"
