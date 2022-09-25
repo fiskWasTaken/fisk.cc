@@ -37,9 +37,6 @@ After finally leaving the forum, Alex would continue hosting payment portals for
 
 The footer of BPServers references web designer brand 'wbxdsg', a project of [Nicolas Durand](https://archive.ph/B1CbV). This name appears in the footer of an old Mannco.trade page template which is [still online today](https://archive.ph/mXnG8).
 
-![](/img/articles/wbxdsg-bpservers.png)
-![](/img/articles/wbxdsg.png)
-
 ## Acuata.com
 
 Alex's HackForums scams would directly link to Acuata.com in the footer, and likewise, Acuata.com was [linking back](https://web.archive.org/web/20150423042823/http://acuata.com/) to these services. Acuata is "a private contractor that work on multiples (sic) communities & websites".
