@@ -85,9 +85,7 @@ Peanuthero received a SteamRep tag after it was revealed one his bots, for some 
 
 Mannco.trade and Mannco.store launched around this time. This is when Peanuthero stepped down, and a new "Alex" took his place. Nobody knew who Alex was, and it was speculated, but never proven, that him and Peanuthero were the same person.
 
-Again, Alex took to attacking sites in the ScrapTF network with DDoS tools some time in late 2020.
-
-Alex was browsing pages of backpack.tf to launch DDoS attacks on from his home IP address. Alex was logged out of the site at the time, but his last-known IP address had already been logged. We were able to cross-reference an IP address that was navigating to certain pages before a booter would run on that route, and an IP address recently used by Alex. This led us to investigate and connect their identities.
+Again, Alex took to attacking sites in the ScrapTF network with DDoS tools some time in late 2020. Alex was caught through cross-referencing the last-known IP addresses of his user accounts, and the IP of an anonymous user that was navigating to pages minutes before a booter would run.
 
 I promptly banned the Mannco.store staff from backpack.tf for repeatedly denying their affiliation with these attacks, and we requested SteamRep to apply Alex's SteamRep tag to his new account based on the information we uncovered. This prompted the Mannco.store staff to make [this post](https://archive.ph/hkDUL), where they, again, make the claim that they are two separate people. This is blatantly untrue, and Mannco.store are lying to their customers.
 
