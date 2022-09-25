@@ -1,15 +1,19 @@
 ---
 title: "Who is Alexandre Gagnon?"
 date: 2022-05-17T18:03:00+01:00
----
+--- 
+
+This article has been linked from any relevant banned user pages related to Mannco.store.
+
+----
 
 Alexandre Gagnon is a con artist from Quebec, Canada. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites.
 
-If you are familiar with Team Fortress 2 trading, this is the same Alex that runs Mannco.store. The staff on the project are friends who helped Alex perform scams on his previous aliases. Alex's modus operandi is to run DDoS attacks on competitor websites. The site is blacklisted from PayPal for a very good reason.
+If you are familiar with Team Fortress 2 trading, this is the same Alex that runs Mannco.store. Certain staff on the project are friends who helped Alex perform scams on his previous aliases. Alex's modus operandi is to run DDoS attacks on competitor websites. Alex is blacklisted from PayPal and other reputable merchants for good reason.
 
-Alex has attempted to reinvent his identity to remove ties to his past scams. Previously known as Peanuthero, Alex has scammed many people out of thousands of dollars. 
+Alex has attempted to reinvent his identity to remove ties to his past. Previously known as Peanuthero, Alex has scammed many people out of thousands of dollars.
 
-Despite best efforts to separate his identities, there are many obvious ties between the two personas. This has to be emphasised because Alex will always deny these claims. Alex's friends have gone as far as write entire blog posts fabricating a tale to salvage his reputation.
+Despite best efforts to separate his identities, there are many obvious ties between the two personas. This is emphasised because Alex will deny these claims. Alex's friends have gone as far as write entire blog posts fabricating a tale to salvage his reputation.
 
 ## Alex's many, many HackForums scams
 
@@ -79,15 +83,14 @@ We know this is the same Peanuthero that eventually goes on to scam HackForums u
 
 ## SteamRep tagging, ban evasion and attacks on the ScrapTF network
 
-Peanuthero initially appeared in the Steam trading space by hosting a gambling site, mannco.jackpot. Alex took to DDoSing backpack.tf as early as 2017, shortly after we revoked his access to our web APIs, which we did as we were working to deter use of the service for gambling sites.
+Peanuthero initially appeared in the Steam trading space with a gambling website, mannco.jackpot. Alex took to DDoSing backpack.tf as early as 2017 shortly after we revoked his access to our web APIs, which we did as we were working to deter use of the service for gambling sites.
 
 Peanuthero received a SteamRep tag after it was revealed one his bots, for some reason, had an unexplained SteamRep Scammer tag. [Peanuthero appealed against the tag](https://forums.steamrep.com/threads/appeal-76561198026734540-%E2%9C%85peanuthero-mannco-trade-banned-by-sr.180729/), but this was subsequently declined.
 
-Mannco.trade and Mannco.store launched around this time. This is when Peanuthero stepped down, and a new "Alex" took his place. Nobody knew who Alex was, and it was speculated, but never proven, that him and Peanuthero were the same person.
+Mannco.trade and Mannco.store launched around this time. This is when Peanuthero stepped down, and "Alex" took his place. Nobody knew who Alex was, and it was speculated, but never proven, that him and Peanuthero were the same person.
 
 Again, Alex took to attacking sites in the ScrapTF network with DDoS tools some time in late 2020. Alex was caught through cross-referencing the last-known IP addresses of his user accounts, and the IP of an anonymous user that was navigating to pages minutes before a booter would run.
 
 I promptly banned the Mannco.store staff from backpack.tf for repeatedly denying their affiliation with these attacks, and we requested SteamRep to apply Alex's SteamRep tag to his new account based on the information we uncovered. This prompted the Mannco.store staff to make [this post](https://archive.ph/hkDUL), where they, again, make the claim that they are two separate people. This is blatantly untrue, and Mannco.store are lying to their customers.
 
-Fast forward to 2022, Alex has decided to DDoS our network on two separate occasions this year. 
-This has prompted me to finally write this up, and this will be linked from any relevant banned user pages. 
+Fast forward to 2022, Alex has decided to DDoS our network on two separate occasions this year.

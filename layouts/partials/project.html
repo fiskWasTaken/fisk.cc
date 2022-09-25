@@ -1,18 +1,16 @@
 
 <li class="project">
     <div class="metadata">
-        <div class="thumbnail" style="background-image: url({{ .imageUrl }});"></div>
+        <a class="thumbnail" href="{{ .url }}" style="background-image: url({{ .imageUrl }});"></a>
         <dl>
             <dt>Date</dt>
             <dd>{{ .date }}</dd>
             <dt>Language</dt>
             <dd>{{ .language }}</dd>
-            <dt>Project URL</dt>
-            <dd><a class="link" href="{{ .url }}">{{ .urlText }}</a></dd>
         </dl>
     </div>
     <div class="main">
-        <div class="title">{{ .name }}</div>
+        <a class="title" href="{{ .url }}">{{ .name }}</a>
         <div class="subtitle">{{ .summary }}
         </div>
         <div class="description">

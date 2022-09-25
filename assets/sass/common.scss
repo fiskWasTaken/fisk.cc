@@ -1,24 +1,19 @@
-$backgroundColor: #514b56;
-$fontColor: #fff;
-$lineColor: #bb8d9c;
+$backgroundColor: #363331;
+$fontColor: #efebe8;
+$lineColor: #5e4d52;
 $projectGutter: 0em;
-$linkColor: #cad0e5;
+$linkColor: #e5d8ca;
 $projectSideWidth: 10em;
 $width: 900px;
 $min-desktop: 720px;
 
 %fancy-link {
-  &:visited {
-    color: $linkColor;
-    text-decoration: none;
-  }
-
   &:hover {
     text-decoration-color: $lineColor;
   }
 
   color: $linkColor;
-  text-decoration-color: transparentize($lineColor, 1);
+  text-decoration-color: transparentize($lineColor, 0.5);
   transition: text-decoration-color 0.2s;
 }
 

@@ -43,60 +43,13 @@
                 {{ partial "library.html" . }}
             {{ end }}
         </ul>
-        <h3>Miscellaneous</h3>
-        <ul class="project-list-sm">
-            <li class="project">
-                <div class="metadata">
-                    <dl>
-                        <dt>Language</dt>
-                        <dd>C++</dd>
-                        <dt>Project URL</dt>
-                        <dd><a class="link"
-                               href="https://github.com/fiskWasTaken/asteroids">asteroids on
-                            GitHub</a></dd>
-                    </dl>
-                </div>
-                <div class="main">
-                    <div class="title">Asteroids</div>
-                    <div class="subtitle">C++/SFML Asteroids clone</div>
-                    <div class="description">
-                        <p>
-                            A small game I wrote to learn the ropes of <a
-                                href="https://www.sfml-dev.org/">SFML</a>.
-                            It features a collision engine implemented with the
-                            <a href="https://en.wikipedia.org/wiki/Hyperplane_separation_theorem"
-                            >hyperplane
-                                separation theorem</a>,
-                            and support for multiple players.
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <li class="project">
-                <div class="metadata">
-                    <dl>
-                        <dt>Language</dt>
-                        <dd>Swift</dd>
-                        <dt>Project URL</dt>
-                        <dd><a class="link"
-                               href="https://github.com/fiskWasTaken/jsrl">jsrl on
-                            GitHub</a></dd>
-                    </dl>
-                </div>
-                <div class="main">
-                    <div class="title">JetSetRadio.live for iOS</div>
-                    <div class="subtitle">Faux-radio client</div>
-                    <div class="description">
-                        <p>
-                            An iOS client for <a href="http://jetsetradio.live/">JetSetRadio.live</a>.
-                            Never saw the light of day because publishing
-                            anything for iOS illegally or not is a nightmare.
-                            Don't make me touch Swift again, thank-you.
-                        </p>
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <h3>Posts</h3>
+        <!-- Ranges through content/posts/*.md -->
+        {{ range .Pages }}
+        <div>
+            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+        </div>
+        {{ end }}
     </section>
 </section>
 
