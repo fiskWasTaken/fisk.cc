@@ -1,0 +1,8 @@
+name = "Sideshow"
+description = "I like PureRef - unfortunately, it doesn't work on my iPad because it's only made for the desktop. Sideshow is a HTML5 solution to bring a capable reference manager to the browser."
+summary = "Reference manager for artists and graphic designers"
+language = "Nuxt"
+date = "2022-"
+url = "https://sideshow.fisk.cc"
+urlText = "sideshow.fisk.cc"
+imageUrl = ""

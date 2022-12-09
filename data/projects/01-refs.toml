@@ -1,8 +1,0 @@
-name = "refs (Working Title)"
-description = "I like PureRef - unfortunately, it doesn't work on my iPad because it's only made for the desktop. This is a HTML5 solution to bring a capable reference manager to the desktop."
-summary = "HTML5 reference manager"
-language = "Nuxt"
-date = "2022-"
-url = "https://refs.fisk.cc"
-urlText = "refs.fisk.cc"
-imageUrl = ""
