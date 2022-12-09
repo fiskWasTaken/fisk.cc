@@ -1,0 +1,39 @@
+name: ci
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Deploy to production
+        uses: easingthemes/ssh-deploy@main
+        env:
+          REMOTE_HOST: ${{ secrets.HOST }}
+          REMOTE_USER: ${{ secrets.USERNAME }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH2 }}
+          SOURCE: "."
+          TARGET: ${{ secrets.REMOTE_TARGET }}
+
+      - name: Build hugo project
+        uses: garygrossgarten/github-action-ssh@release
+        with:
+          command: cd ${{ secrets.REMOTE_TARGET }} && hugo
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          privateKey: ${{ secrets.SSH2 }}
