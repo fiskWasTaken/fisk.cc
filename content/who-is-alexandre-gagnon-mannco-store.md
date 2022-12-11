@@ -72,21 +72,24 @@ As *Peanuthero*, Alex would send false DMCAs to Cloudflare as *Alexandre Gagnon*
 
 Alex identified himself as the owner of AsterionServeurs and Acuata.com on his [former personal website](https://web.archive.org/web/20141218054701/http://peanuthero.com/).
 
-## Mannco.store, identity crisis, and attacks on the ScrapTF network
+## Mannco.store, and an identity crisis
 
 Peanuthero's first appearance in the Steam trading space was with *mannco.jackpot*. This was a gambling website which would use backpack.tf web APIs to fetch price data. At that time, a policy was in place to disallow use of this data by gambling websites. After revoked API access and repeated attempts to circumvent a block, Alex took to launching DDoS attacks on backpack.tf.
 
 Peanuthero would receive a SteamRep tag when it was discovered one of his bots, for some reason, had an unexplained SteamRep Scammer tag. [Peanuthero's appeal against the tag](https://forums.steamrep.com/threads/appeal-76561198026734540-%E2%9C%85peanuthero-mannco-trade-banned-by-sr.180729/) was declined.
 
-Mannco.trade and Mannco.store launched around this time. This is when *Peanuthero* stepped down, and "Alex" took his place. Nobody knew who Alex was, and Alex had no history in the trading scene.
+Mannco.trade and Mannco.store launched around this time. This is when *Peanuthero* stepped down, and "Alex" took his place. Nobody knew who Alex was, and Alex had no history in the trading scene. While it was suspect that they were the same person, no concrete proof was ever surfaced, allowing him to operate this way for roughly a year.
 
-The 2020 DDoS attack followed a major feature release on Mannco.store. Our investigation resulted in the following:
+In 2020, [Alex registered MANNCO ONLINE LIMITED](https://find-and-update.company-information.service.gov.uk/company/12440217/filing-history) in the United Kingdom's Companies register. This was dissolved after a year. For some reason, Alex put his nationality as 'British' in the original filing before changing it to Canadian.
 
-* The Alex and Peanuthero identities were linked together.
-* The main Mannco.store staff received bans from the website.
-* Upon request, SteamRep reinstated a tag on Alex's new Steam account.
-* Mannco.store published [an article](https://archive.ph/hkDUL) still trying to claim that Alex and Peanuthero are two different people.
+## Attacks on the ScrapTF network
 
-Alex has continued to launch DDoS attacks on the ScrapTF network since. This is pretty much where this story ends -- I find his personality fascinating, but more importantly I think his identity should remain permanently on record.
+A DDoS attack in late 2020 followed a major feature release on Mannco.store. Whenever an attack would happen, Alex would not-so-subtly make comments about downtime over Discord.
 
-Fun fact: In 2020, [Alex registered MANNCO ONLINE LIMITED](https://find-and-update.company-information.service.gov.uk/company/12440217/filing-history) in the United Kingdom's Companies register. This was dissolved after a year. For some reason, Alex put his nationality as 'British' in the original filing before changing it to Canadian.
+Cross-examining IPs of who was browsing particular pages right before attacks were directed at them led us directly to Alex. Conclusively, we knew it was him doing this. This led to the discovery of the information posted in the previous sections.
+
+With the identities linked, the main Mannco.store staff received bans from the website, and SteamRep reinstated a tag on Alex's new Steam account upon our request. Following this incident, Mannco.store published [an article](https://archive.ph/hkDUL) still trying to claim that Alex and Peanuthero are two different people.
+
+Alex has continued to launch DDoS attacks on the ScrapTF network since. Alex has occasionally reached out to me to claim he is still not Alex and threaten litigation in broken English.
+
+This is pretty much where this story ends -- I find his personality fascinating, but more importantly, his identity and behaviour should remain permanently on record.
