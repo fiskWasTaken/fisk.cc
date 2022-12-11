@@ -84,7 +84,7 @@ In 2020, [Alex registered MANNCO ONLINE LIMITED](https://find-and-update.company
 
 ## Attacks on the ScrapTF network
 
-A DDoS attack in late 2020 followed a major feature release on Mannco.store. Whenever an attack would happen, Alex would not-so-subtly make comments about downtime over Discord.
+Following a major feature release on Mannco.store, all three sites in the ScrapTF network were being hit with DDoS attacks. Whenever an attack would happen, Alex would not-so-subtly make comments about downtime over Discord.
 
 Cross-examining IPs of who was browsing particular pages right before attacks were directed at them led us directly to Alex. Conclusively, we knew it was him doing this. This led to the discovery of the information posted in the previous sections.
 
