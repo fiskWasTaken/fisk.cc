@@ -9,7 +9,7 @@ This prompted an investigation, shedding new light on a criminal with a history 
 
 ----
 
-**Alexandre Gagnon** or *Peanuthero*, is an individual from Quebec, Canada. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites. If you are familiar with *Team Fortress 2* trading, this is the same Alex that runs Mannco.store.
+**Alexandre Gagnon**,git ad or *Peanuthero*, is an individual from Quebec, Canada. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites. If you are familiar with *Team Fortress 2* trading, this is the same Alex that runs Mannco.store.
 
 Alex's modus operandi is DDoS attacks and false DMCA takedowns against competing services. Despite efforts to separate his identities, there are many ties between his personas. Alex will deny any claims. This post documents these behaviours and links his different identities together.
 
