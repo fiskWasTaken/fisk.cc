@@ -1,5 +1,5 @@
 name = "royale.pet"
-description = "This is the result of me reverse engineering the Super Animal Royale binary to get ahold of the Playfab API key they use. In 2021, royale.pet was updated to a Nuxt PWA."
+description = "I reverse-engineered Super Animal Royale to provide this stats portal. royale.pet has been translated into over a dozen different languages by a team of community volunteers."
 summary = "Statistics and leaderboards for Super Animal Royale"
 language = "TypeScript, Nuxt"
 date = "2019-"
