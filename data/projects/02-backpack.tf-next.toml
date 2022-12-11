@@ -1,7 +1,7 @@
 name = "backpack.tf Next"
 description = "A major frontend overhaul to backpack.tf which saw a total migration to Nuxt/Vue, replacing the antiquated Twig/jQuery stack."
 summary = "backpack.tf as a Progressive Web App"
-language = "TypeScript, Vue"
+language = "TypeScript, Nuxt"
 date = "2021-"
 url = "https://backpack.tf"
 urlText = "backpack.tf"
