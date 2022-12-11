@@ -2,3 +2,7 @@ baseURL = "https://fisk.cc/"
 languageCode = "en-us"
 title = "fisk.cc"
 enableGitInfo = true
+
+[Params]
+Author = "fisk"
+Description = "fisk's personal webzone"
