@@ -3,7 +3,7 @@ title: "Who is Alexandre Gagnon?"
 date: 2022-12-11T17:38:00+00:00
 --- 
 
-In December 2020, there was a [distributed denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the ScrapTF network; the collective of *Team Fortress 2* trading websites of backpack.tf, scrap.tf, and marketplace.tf. The attacker would navigate to specific pages moments before an attack would hit. Cross-referencing these requests with known user IPs allowed us to determine who was doing it.
+In December 2020, there was a [distributed denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the ScrapTF network; the collective of *Team Fortress 2* trading websites better known as backpack.tf, Scrap.TF, and Marketplace.TF. The attacker would navigate to specific pages moments before an attack would hit. Cross-referencing these requests with known user IPs allowed us to determine who was doing it.
 
 This prompted further investigation, shedding new light on a criminal with a history of online scams.
 
