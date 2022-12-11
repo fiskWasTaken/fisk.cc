@@ -24,7 +24,7 @@ Users would buy Alex's services under the impression that his claims were legiti
 
 [Spamhaus](https://www.spamhaus.org/), a widely-used anti-spam blacklist, soon blacklisted Alex's services. Covering this up, [Alex scammed a user out of over US$4,000](/archive/scammed-by-peanuthero.html), claiming it was because the user was hosting child pornography. The user in question discovered that [Alex was fabricating support tickets from the upstream](/archive/peanuthero-support-tickets.html) to prove his claim.
 
-HackForums would ban Peanuthero from the website in July 2016. Alex would return and [sign up to HackForums with sock accounts](/archive/bpservers-ru-sock.html) to continue advertising his own services. Seasoned users identified him almost immediately, and HackForums would ban his sock accounts. Alex would then immediately cut access for the users who paid for his service.
+HackForums would ban Peanuthero from the website in July 2016. Alex would return and [sign up to HackForums with sock accounts](/archive/bpservers-ru-sock.html) to continue advertising his own services. Seasoned users identified him almost immediately, and HackForums would ban his sock accounts. Alex would then sever access for the users who paid for his service.
 
 Alex would return a second time to advertise yet another offshore service. This turned out to be another snake oil host claiming to operate out of the Seychelles, again [traced to the Netherlands](/archive/shadowhosting.html).
 
