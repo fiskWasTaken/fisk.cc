@@ -1,6 +1,6 @@
 ---
 title: "Who is Alexandre Gagnon?"
-date: 2022-05-17T18:03:00+01:00
+date: 2022-12-11T17:38:00+00:00
 --- 
 
 In December 2020, there was a [distributed denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the ScrapTF network. The attacker would navigate to specific pages moments before an attack would hit. Cross-referencing these requests with known user IPs allowed us to determine the attacker.
