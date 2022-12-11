@@ -32,8 +32,6 @@ Evading more bans, an investigation of Alex's cryptocurrency wallet transfers sh
 
 After finally leaving the forum, Alex would continue hosting payment portals for BPServers.ru [through to 2017](https://web.archive.org/web/20170710174638/https://bpservers.ru/), although the abandoned client area was no longer usable.
 
-Certain Mannco.store staff have helped Alex with his scams. The footer of BPServers.ru references web designer brand *wbxdsg*, a project of [Nicolas Durand](https://archive.ph/B1CbV). This name appears in the footer of an old Mannco.trade page template which is [still online today](https://archive.ph/mXnG8).
-
 ## Acuata.com
 Alex's HackForums scams would link to Acuata.com in the footer. Likewise, Acuata.com would [link back](https://web.archive.org/web/20150423042823/http://acuata.com/) to these services. Acuata is "a private contractor that work on multiples (sic) communities & websites".
 
@@ -79,6 +77,8 @@ Peanuthero's first appearance in the Steam trading space was with *mannco.jackpo
 Peanuthero would receive a SteamRep tag when it was discovered one of his bots, for some reason, had an unexplained SteamRep Scammer tag. [Peanuthero's appeal against the tag](https://forums.steamrep.com/threads/appeal-76561198026734540-%E2%9C%85peanuthero-mannco-trade-banned-by-sr.180729/) was declined.
 
 Mannco.trade and Mannco.store launched around this time. This is when *Peanuthero* stepped down, and "Alex" took his place. Nobody knew who Alex was, and Alex had no history in the trading scene. While it was suspect that they were the same person, no concrete proof was ever surfaced, allowing him to operate this way for roughly a year.
+
+Certain Mannco.store staff have helped Alex with his scams. The footer of HackForums-era BPServers.ru references web designer brand *wbxdsg*, a project of [Nicolas Durand](https://archive.ph/B1CbV). This name appears in the footer of an old Mannco.trade page template which is [still online today](https://archive.ph/mXnG8).
 
 In 2020, [Alex registered MANNCO ONLINE LIMITED](https://find-and-update.company-information.service.gov.uk/company/12440217/filing-history) in the United Kingdom's Companies register. This was dissolved after a year. For some reason, Alex put his nationality as 'British' in the original filing before changing it to Canadian.
 
