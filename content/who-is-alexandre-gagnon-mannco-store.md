@@ -3,13 +3,13 @@ title: "Who is Alexandre Gagnon?"
 date: 2022-12-11T17:38:00+00:00
 --- 
 
-In December 2020, there was a [distributed denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the ScrapTF network. The attacker would navigate to specific pages moments before an attack would hit. Cross-referencing these requests with known user IPs allowed us to determine the attacker.
+In December 2020, there was a [distributed denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) on the ScrapTF network; the collective of *Team Fortress 2* trading websites of backpack.tf, scrap.tf, and marketplace.tf. The attacker would navigate to specific pages moments before an attack would hit. Cross-referencing these requests with known user IPs allowed us to determine who was doing it.
 
-This prompted an investigation, shedding new light on a criminal with a history of online scams.
+This prompted further investigation, shedding new light on a criminal with a history of online scams.
 
 ----
 
-**Alexandre Gagnon**,git ad or *Peanuthero*, is an individual from Quebec, Canada. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites. If you are familiar with *Team Fortress 2* trading, this is the same Alex that runs Mannco.store.
+**Alexandre Gagnon**, or *Peanuthero*, is an individual from Quebec, Canada. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites. If you are familiar with *Team Fortress 2* trading, this is the same Alex that runs Mannco.store.
 
 Alex's modus operandi is DDoS attacks and false DMCA takedowns against competing services. Despite efforts to separate his identities, there are many ties between his personas. Alex will deny any claims. This post documents these behaviours and links his different identities together.
 
