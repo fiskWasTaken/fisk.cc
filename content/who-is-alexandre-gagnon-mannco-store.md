@@ -9,7 +9,7 @@ This prompted an investigation, shedding new light on a criminal with a history 
 
 ----
 
-**Alexandre Gagnon** is a con artist from Quebec, Canada. Alex is also known as *Peanuthero*. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites. If you are familiar with *Team Fortress 2* trading, this is the same Alex that runs Mannco.store.
+**Alexandre Gagnon** or *Peanuthero*, is an individual from Quebec, Canada. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites. If you are familiar with *Team Fortress 2* trading, this is the same Alex that runs Mannco.store.
 
 Alex's modus operandi is DDoS attacks and false DMCA takedowns against competing services. Despite efforts to separate his identities, there are many ties between his personas. Alex will deny any claims. This post documents these behaviours and links his different identities together.
 
@@ -72,7 +72,7 @@ As *Peanuthero*, Alex would send false DMCAs to Cloudflare as *Alexandre Gagnon*
 
 Alex identified himself as the owner of AsterionServeurs and Acuata.com on his [former personal website](https://web.archive.org/web/20141218054701/http://peanuthero.com/).
 
-## SteamRep tagging, ban evasion and attacks on the ScrapTF network
+## Mannco.store, identity crisis, and attacks on the ScrapTF network
 
 Peanuthero's first appearance in the Steam trading space was with *mannco.jackpot*. This was a gambling website which would use backpack.tf web APIs to fetch price data. At that time, a policy was in place to disallow use of this data by gambling websites. After revoked API access and repeated attempts to circumvent a block, Alex took to launching DDoS attacks on backpack.tf.
 
@@ -85,6 +85,8 @@ The 2020 DDoS attack followed a major feature release on Mannco.store. Our inves
 * The Alex and Peanuthero identities were linked together.
 * The main Mannco.store staff received bans from the website.
 * Upon request, SteamRep reinstated a tag on Alex's new Steam account.
-* Mannco.store published [an article](https://archive.ph/hkDUL) reinforcing the claim that Alex and Peanuthero are two different people.
+* Mannco.store published [an article](https://archive.ph/hkDUL) still trying to claim that Alex and Peanuthero are two different people.
 
-Alex has continued to launch DDoS attacks on the ScrapTF network since.
+Alex has continued to launch DDoS attacks on the ScrapTF network since. This is pretty much where this story ends -- I find his personality fascinating, but more importantly I think his identity should remain permanently on record.
+
+Fun fact: In 2020, [Alex registered MANNCO ONLINE LIMITED](https://find-and-update.company-information.service.gov.uk/company/12440217/filing-history) in the United Kingdom's Companies register. This was dissolved after a year. For some reason, Alex put his nationality as 'British' in the original filing before changing it to Canadian.
