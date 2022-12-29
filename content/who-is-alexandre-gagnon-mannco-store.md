@@ -16,19 +16,17 @@ Alex's modus operandi is DDoS attacks and false DMCA takedowns against competing
 ## Alex's many, many HackForums scams
 **NB**: The linked threads are local archives because HackForums requires a user login. You can verify the contents yourself by signing in to HackForums, as the threads are likely to stay.
 
-Alex scammed uncountable amounts of money from HackForums users.
+In 2016, Alex scammed uncountable amounts of money from HackForums users. Alex would claim his services were "offshore" and "takedown-free". In other words, his services would ignore takedown requests for unlawful content.
 
-In 2016, Alex took to HackForums to sell web hosting services. Posting as *Peanuthero*, Alex would claim his services were "offshore" and "takedown-free". In other words, his services would ignore takedown requests for unlawful content.
+**July 2016**: As Peanuthero, Alex advertises OutlawServers.ca, a "black hat" web hosting service. [Spamhaus](https://www.spamhaus.org/), a widely-used anti-spam blacklist, soon blacklists Alex's service. Covering this up, [Alex scams a user out of over US$4,000](/archive/scammed-by-peanuthero.html), claiming it was because the user was hosting child pornography. The user in question discovers that [Alex was fabricating support tickets from the upstream](/archive/peanuthero-support-tickets.html) to back up his lie.
 
-Users would buy Alex's services under the impression that his claims were legitimate. Alex was actually [reselling hosting from the Netherlands](/archive/bpservers-scam-alert.html) at 200% markup.
+**August 2016**: As "SkylerRaine", Alex is caught [reselling hosting from the Netherlands](/archive/bpservers-scam-alert.html) at 200% markup for BPServers, his new bullet-proof service. Alex would assert his claims in private messages, to customers who knew how routing on the internet worked. Seasoned users identify that this might be Alex from his writing style, and further sleuthing leads to his next ban. 
 
-[Spamhaus](https://www.spamhaus.org/), a widely-used anti-spam blacklist, soon blacklisted Alex's services. Covering this up, [Alex scammed a user out of over US$4,000](/archive/scammed-by-peanuthero.html), claiming it was because the user was hosting child pornography. The user in question discovered that [Alex was fabricating support tickets from the upstream](/archive/peanuthero-support-tickets.html) to prove his claim.
+![](/img/articles/skylerraine-dm.png)
 
-HackForums would ban Peanuthero from the website in July 2016. Alex would return and [sign up to HackForums with sock accounts](/archive/bpservers-ru-sock.html) to continue advertising his own services. Seasoned users identified him almost immediately, and HackForums would ban his sock accounts. Alex would then sever access for the users who paid for his service.
+**September 2016**: As "manandco" (mannco?), Alex returns yet again to advertise ShadowHosting &ndash; yet another offshore service. Again, another host claiming to operate out of the Seychelles, [traced to the Netherlands](/archive/shadowhosting.html).
 
-Alex would return a second time to advertise yet another offshore service. This turned out to be another snake oil host claiming to operate out of the Seychelles, again [traced to the Netherlands](/archive/shadowhosting.html).
-
-Evading more bans, an investigation of Alex's cryptocurrency wallet transfers showed he was [still using wallet addresses from previous scams](/archive/peanuthero-ban-evasion.html).
+Evading more bans, an investigation of Alex's cryptocurrency wallet transfers showed he was still using wallet addresses from previous scams.
 
 After finally leaving the forum, Alex would continue hosting payment portals for BPServers.ru [through to 2017](https://web.archive.org/web/20170710174638/https://bpservers.ru/), although the abandoned client area was no longer usable.
 
@@ -43,6 +41,7 @@ Also on the roster is:
 
 * Emmanuel Chevreux, a long-time friend of Alex from his Dofus days, who has worked alongside him since [at least 2015](https://archive.ph/jTL33) on a project known as Sourcerev.
 * Anthony Garcia, a.k.a. "Lagg", a Team Fortress 2 Wiki sysop.
+* Hadrien Jared, of [Hadrien Design](https://archive.md/QSBej). Hadrien has designed the web frontend on a lot of Alex's projects, from Acuata.com, to SourceRev, to Mannco.store.
 
 Acuata.com first appeared on January 15, 2014, having a very different set of services on its roster:
 
@@ -54,8 +53,6 @@ Acuata.com first appeared on January 15, 2014, having a very different set of se
 
 These services no longer exist, and the frontpage of Acuata.com no longer reference these. Snapshots are still available on [web.archive.org](https://web.archive.org/web/20220000000000*/acuata.com).
 
-[Despite being on the portfolio in 2020](https://archive.ph/KHmlf), Mannco.store and Mannco.trade are not shown on the Acuata.com frontpage as of writing. Yet, many site-related staff are still listed here.
-
 Acuata.com has never changed ownership according to WHOIS records. Thus, Alex has always been in control of this website.
 
 ## Dofus, and false DMCA takedowns
@@ -66,7 +63,7 @@ Alex was hostile towards other server operators, filing false DMCA notices again
 
 ![](/img/articles/peanuthero-dofus-dmca.png)
 
-As *Peanuthero*, Alex would send false DMCAs to Cloudflare as *Alexandre Gagnon*.
+Alex would send false DMCAs to Cloudflare under his own name, perhaps not realising that DMCA notices are always forwarded to the subject of the complainant.
 
 Alex identified himself as the owner of AsterionServeurs and Acuata.com on his [former personal website](https://web.archive.org/web/20141218054701/http://peanuthero.com/).
 
@@ -82,6 +79,12 @@ Certain Mannco.store staff have helped Alex with his scams. The footer of HackFo
 
 In 2020, [Alex registered MANNCO ONLINE LIMITED](https://find-and-update.company-information.service.gov.uk/company/12440217/filing-history) in the United Kingdom's Companies register. This was dissolved after a year. For some reason, Alex put his nationality as 'British' in the original filing before changing it to Canadian.
 
+[Despite being listed in 2020](https://archive.ph/KHmlf), Mannco.store and Mannco.trade are not shown on the Acuata.com portfolio. Mannco.store has this in the footer:
+
+> Mannco.store is operated by Minelauva Holdings Limited, Kypranoros, 13, EVI BUILDING, Floor 2, Flat/Office 201, 1061, Nicosia, Cyprus. (Company Registration No. HE429892)
+
+Again, after looking this up on the Cyprus companies register... this is a company registered to [Alexandre Gagnon](https://efiling.drcor.mcit.gov.cy/DrcorPublic/OrganizationFileContents.aspx?id=600375&nameid=989773&regno=429892&name=%25&number=429892&searchtype=optStartMatch&tname=%25&type=%u0397%u0395&subtypecode=101&sc=0). Why set up a new company alias as a parent, I do not know. Almost every address I have found registered to one of Alex's products has been a business address designed for overseas clients shared by many other companies. 
+
 ## Attacks on the ScrapTF network
 
 Following a major feature release on Mannco.store in December of 2020, all three sites in the ScrapTF network were being hit with DDoS attacks. Whenever an attack would happen, Alex would not-so-subtly make comments about downtime over Discord.
@@ -91,5 +94,9 @@ Cross-examining IPs of who was browsing particular pages right before attacks we
 With the identities linked, the main Mannco.store staff received bans from the website, and SteamRep reinstated a tag on Alex's new Steam account upon our request. Following this incident, Mannco.store published [an article](https://archive.ph/hkDUL) still trying to claim that Alex and Peanuthero are two different people.
 
 Alex has continued to launch DDoS attacks on the ScrapTF network since. Alex has occasionally reached out to me to claim he is still not Alex and threaten litigation in broken English.
+
+----
+
+It is not impossible, but highly improbable, that there are two Alexandre Gagnons from Quebec with similar backgrounds. But if that were true, the Alex of 2016 has all but disappeared, and the other Alex has come out of virtually nowhere, coincidentally with the same work colleagues.  
 
 This is pretty much where this story ends -- I find his personality fascinating, but more importantly, his identity and behaviour should remain permanently on record.
