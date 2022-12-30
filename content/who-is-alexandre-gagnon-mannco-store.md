@@ -83,6 +83,8 @@ In 2020, [Alex registered MANNCO ONLINE LIMITED](https://find-and-update.company
 
 Again, after looking this up on the Cyprus companies register... this is a company registered to [Alexandre Gagnon](https://efiling.drcor.mcit.gov.cy/DrcorPublic/OrganizationFileContents.aspx?id=600375&nameid=989773&regno=429892&name=%25&number=429892&searchtype=optStartMatch&tname=%25&type=%u0397%u0395&subtypecode=101&sc=0). Why set up a new company alias as a parent, I do not know. Almost every address I have found registered to one of Alex's products has been a business address designed for overseas clients shared by many other companies. 
 
+Before being updated at some point in 2022, the [Mannco.store Terms of Service](https://directory.b-2-b.org/canada/explore/quebec/lassomption/repentigny/le_gardeur/acuata-inc-438-934-0254.html) referenced the same address to the registered [Entreprise Acuata inc.](https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.JetonStatic=5bd6c0d7-7bc5-456e-afa0-b7d6dcf260dd&T1.CodeService=S00436) in Canada, which is, again, registered to Alexandre Gagnon. Registered as recently as February 2021, it appears to be a home address. 
+
 ## Attacks on the ScrapTF network
 
 Following a major feature release on Mannco.store in December of 2020, all three sites in the ScrapTF network were being hit with DDoS attacks. Whenever an attack would happen, Alex would not-so-subtly make comments about downtime over Discord.
