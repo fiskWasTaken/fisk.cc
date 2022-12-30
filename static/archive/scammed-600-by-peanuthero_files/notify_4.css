@@ -1,0 +1,236 @@
+.message-textarea, .message-textbox {
+	background: #1f1f1f !important;
+	color: #cecece !important;
+	padding: 12px 5px 0px 20px !important;
+!important;
+	font-size: 14px !important;
+	border-radius: 14px !important;
+	line-height: 1 !important;
+	box-shadow: inset 0px 1px 2px 0px #000000e6 !important;
+	border-left: 1px solid #3c3c3c !important;
+	border-right: 1px solid #3c3c3c !important;
+	border-top: 1px solid #333 !important;
+	border-bottom: 1px solid #4a4a4a !important;
+	resize: none;
+	outline: none;
+	width: calc(100% - 105px);
+}
+
+.pro-adv-3d-button {
+	box-shadow: 0px 2px 0px #000000a8;
+	padding: 10px 12px !important;
+	margin: 0px 3px !important;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.pro-adv-3d-button-active:hover {
+	background-color: #111 !important;
+	cursor: default;
+}
+
+.pro-adv-3d-button-active, .pro-adv-3d-button:active {
+	box-shadow: 0px 0px 0px #000000;
+	position: relative;
+	top: 2px;
+	background-color: #111 !important;
+	cursor: default;
+}
+
+input.pro-adv-3d-button {
+	background-color: #1f1f1f;
+	padding: 7px 15px !important;
+	font-weight: bold;
+}
+
+#notify-container {
+	width: 360px;
+	height: 430px;
+	border: 1px solid rgb(33, 33, 33);
+	border-top: none;
+	background-color: rgb(51, 51, 51);
+	position: absolute;
+	top: 183px;
+	z-index: 10000;
+	left: 155px;
+	box-shadow: 0px 10px 8px 3px #00000059;
+	text-align: left;
+}
+
+.notify-header {
+	padding: 6px 13px;
+	border-bottom: 1px solid #0e0e0e;
+	background-color: #171717;
+}
+
+#notify-dragger {
+	cursor: move;
+}
+
+.notify-header-heading {
+	font-size: 13px;
+	font-weight: 700;
+	color: #ccc;
+}
+
+.notify-num {
+	font-weight: bold;
+	z-index: 100;
+	position: absolute;
+	top: -7px;
+	left: 9px;
+	font-size: 11px;
+	background-color: #c53700;
+	padding: 0px 3px;
+	border-radius: 2px;
+	color: #f2f2f2 !important;
+	display: none;
+}
+
+.notify-num-displayed {
+	display: inline !important;	
+}
+
+#notify-container a {
+	color: #eee;
+}
+
+#notify-notifications-container {
+	overflow-y: scroll;
+	max-height: calc(100% - 32px);
+	scroll-behavior: smooth;
+}
+
+#notify-notifications-container::-webkit-scrollbar{
+	height:10px;
+	width:3px;
+	border-radius: 4px;
+	background: #222;
+	transition: all 0.3s ease;
+}
+#notify-notifications-container::-webkit-scrollbar:hover{
+	background: #222;
+}
+#notify-notifications-container::-webkit-scrollbar-thumb{
+	background:#111;
+	border-radius: 4px;
+}
+
+.notify-notice-container {
+	padding: 8px;
+	display: flex;
+	border-bottom: 1px solid #0e0e0e;
+	border-top: 1px solid #373737;
+}
+
+.notify-notice-container-read {
+	background-color: #262626;	
+}
+
+.notify-notice-avatar-container {
+	vertical-align: middle;
+	display: inline-block;
+	flex: 0 0 40px;
+}
+
+.notify-notice-avatar {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+.notify-notice-avatar img {
+	border-radius: 25px;
+}
+
+.notify-notice-details-container {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 7px;
+	flex: 1 1 100px;
+	cursor: pointer;
+}
+
+.header-notify-force-display {
+	display: block !important;
+}
+
+@media only screen and (max-width: 1275px) {
+	#notify-container {
+		top: 177px;
+		left: 155px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.notify-body-fixed {
+		position: fixed;	
+	}
+	
+	#notify-container {
+		position: fixed !important;
+		top: 51px !important;
+		left: 0px !important;
+		width: 100%;
+		height: 100%;
+	}
+	
+	#notify-dragger {
+		cursor: initial;
+	}
+
+.qc-desktop-toggle-button {
+				display: none !important;
+			}
+
+			.gc-main {
+				position: initial !important;
+				right: initial !important;
+				bottom: initial !important;
+				height: 100% !important;
+			}
+
+			#convoGlobalContainer {
+				right: initial !important;
+				bottom: initial !important;
+				width: 100% !important;
+				top: -100% !important;
+				height: calc(100% - 51px) !important;
+			}
+
+			.quick-convo-grouping {
+				width: 100% !important;
+				right: initial !important;
+				height: 100% !important;
+			}
+
+			.quick-convo-container {
+				width: 100% !important;
+				height: 100% !important;
+				box-shadow: initial !important;
+				border: 0px !important;
+			}
+			
+			#convoGlobalContainer.gc-opened {
+				right: initial !important;
+				top: 51px !important;
+			}
+			
+			.gc-bubbles-container {
+				max-height: calc(100% - 87px);
+			}
+			
+			.quick-convo-messages {
+				height: 100%;
+			}
+			
+			.gc-body-fixed {
+				position: fixed;
+			}
+}
+
+
+		.gc-opened {
+			right: -43px !important;
+		}

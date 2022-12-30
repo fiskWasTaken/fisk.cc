@@ -18,15 +18,13 @@ Alex's modus operandi is DDoS attacks and false DMCA takedowns against competing
 
 In 2016, Alex scammed uncountable amounts of money from HackForums users. Alex would claim his services were "offshore" and "takedown-free". In other words, his services would ignore takedown requests for unlawful content.
 
-**July 2016**: As "Peanuthero", Alex advertises OutlawServers.ca, a "black hat" web hosting service. [Spamhaus](https://www.spamhaus.org/), a widely-used anti-spam blacklist, soon blacklists Alex's service. Covering this up, [Alex scams a user out of over US$4,000](/archive/scammed-by-peanuthero.html), claiming it was because the user was hosting child pornography. The user in question discovers that [Alex was fabricating support tickets from the upstream](/archive/peanuthero-support-tickets.html) to back up his lie.
+**July 2016**: As "Peanuthero", Alex advertises OutlawServers.ca, a "black hat" web hosting service. [Spamhaus](https://www.spamhaus.org/), a widely-used anti-spam blacklist, soon blacklists Alex's service. Covering this up, [Alex scams a user out of over US$4,000](/archive/scammed-by-peanuthero.html), claiming it was because the user was hosting child pornography. The user in question discovers that [Alex was fabricating support tickets from the upstream](/archive/peanuthero-support-tickets.html) to back up his lie. An investigation of Alex's cryptocurrency wallet transfers showed he was still using wallet addresses from [previous scams](/archive/scammed-600-by-peanuthero.html).
 
 **August 2016**: As "SkylerRaine", Alex is caught [reselling hosting from the Netherlands](/archive/bpservers-scam-alert.html) at 200% markup for BPServers, his new bullet-proof service. Alex would assert his claims in private messages, to customers who knew how routing on the internet worked. Seasoned users identify that this might be Alex from his writing style, and further sleuthing leads to his next ban. 
 
 ![](/img/articles/skylerraine-dm.png)
 
 **September 2016**: As "manandco" (mannco?), Alex returns yet again to advertise ShadowHosting &ndash; yet another offshore service. Again, another host claiming to operate out of the Seychelles, [traced to the Netherlands](/archive/shadowhosting.html).
-
-Evading more bans, an investigation of Alex's cryptocurrency wallet transfers showed he was still using wallet addresses from previous scams.
 
 After finally leaving the forum, Alex would continue hosting payment portals for BPServers.ru [through to 2017](https://web.archive.org/web/20170710174638/https://bpservers.ru/), although the abandoned client area was no longer usable.
 
