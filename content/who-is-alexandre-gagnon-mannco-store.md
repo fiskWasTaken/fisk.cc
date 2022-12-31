@@ -11,10 +11,22 @@ This prompted further investigation, shedding new light on a criminal with a his
 
 **Alexandre Gagnon**, or *Peanuthero*, is an individual from Quebec, Canada. Alex has a paper trail of scams on the internet due to his activities on HackForums and other websites. If you are familiar with *Team Fortress 2* trading, this is the same Alex that runs Mannco.store.
 
-Alex's modus operandi is DDoS attacks and false DMCA takedowns against competing services. Despite efforts to separate his identities, there are many ties between his personas. Alex will deny any claims. This post documents these behaviours and links his different identities together.
+Alex's modus operandi is DDoS attacks and false DMCA takedowns against competing services. Despite efforts to separate his identities, there are many ties between his personas. Alex will deny any claims and has gone out of his way to remove references to his past life. This post documents these behaviours and links his different identities together.
 
-## Alex's many, many HackForums scams
-**NB**: The linked threads are local archives because HackForums requires a user login. You can verify the contents yourself by signing in to HackForums, as the threads are likely to stay.
+## False DMCA takedowns
+
+Alex operated *AsterionServeurs* from roughly 2008 to 2013. This was a private server platform for *Dofus*, a popular French MMORPG. Alex was hostile towards other server operators, filing false DMCA notices against at least one.
+
+**November 2013**: Alex impersonates French video game developer Ankama to send fraudulent DMCA notices to competing private servers. Alex upsets the private server community and argues with them on [a public forum](https://archive.ph/ElqbV).
+
+![](/img/articles/peanuthero-dofus-dmca.png)
+
+Alex would send false DMCAs to CloudFlare under his real name, perhaps not realising that DMCA notices are always forwarded to the subject of the complainant.
+
+Alex identified himself as the owner of AsterionServeurs on his [former personal website](https://web.archive.org/web/20141218054701/http://peanuthero.com/).
+
+## A series of web hosting scams
+**NB**: Because HackForums requires a user login, the linked threads are local copies. You can verify the contents yourself by signing in to HackForums, as the threads are likely to stay.
 
 In 2016, Alex scammed uncountable amounts of money from HackForums users. Alex would claim his services were "offshore" and "takedown-free". In other words, his services would ignore takedown requests for unlawful content.
 
@@ -33,7 +45,7 @@ Alex's HackForums scams would link to Acuata.com in the footer. Likewise, Acuata
 
 ![](/img/articles/acuata.com-now.png)
 
-Although the site is way older, Acuata has listed "Alexandre Gagnon" as the Director/Founder [since at least 2018](https://web.archive.org/web/20180412212144/https://acuata.com/). This overlaps the time in which Alex changed his identities.
+Although the site is way older, Acuata has listed "Alexandre Gagnon" as the Director/Founder [since at least 2018](https://web.archive.org/web/20180412212144/https://acuata.com/).
 
 Also on the roster is:
 
@@ -51,19 +63,7 @@ Acuata.com first appeared on January 15, 2014, having a very different set of se
 
 These services no longer exist, and the frontpage of Acuata.com no longer reference these. Snapshots are still available on [web.archive.org](https://web.archive.org/web/20220000000000*/acuata.com).
 
-Acuata.com has never changed ownership according to WHOIS records. Thus, Alex has always been in control of this website.
-
-## Dofus, and false DMCA takedowns
-
-Dofus is an MMORPG popular among French-speaking communities. Dofus has private servers operated by individuals. Alex, or *Peanuthero*, operated *AsterionServeurs* from roughly 2008 to 2012.
-
-Alex was hostile towards other server operators, filing false DMCA notices against at least one. [A thread (in French)](https://archive.ph/ElqbV) documents Alex sending fraudulent DMCA takedown notices by impersonating the game's developer.
-
-![](/img/articles/peanuthero-dofus-dmca.png)
-
-Alex would send false DMCAs to Cloudflare under his own name, perhaps not realising that DMCA notices are always forwarded to the subject of the complainant.
-
-Alex identified himself as the owner of AsterionServeurs and Acuata.com on his [former personal website](https://web.archive.org/web/20141218054701/http://peanuthero.com/).
+Acuata.com has never changed ownership according to WHOIS records; this indicates that Alex has always been in control of this website.
 
 ## Mannco.store, and an identity crisis
 
@@ -89,7 +89,7 @@ Before being updated at some point in 2022, the [Mannco.store Terms of Service](
 
 Following a major feature release on Mannco.store in December of 2020, all three sites in the ScrapTF network were being hit with DDoS attacks. Whenever an attack would happen, Alex would not-so-subtly make comments about downtime over Discord.
 
-Cross-examining IPs of who was browsing particular pages right before attacks were directed at them led us directly to Alex. Conclusively, we knew it was him doing this. This led to the discovery of the information posted in the previous sections.
+A certain IP address would browse to specific pages right before an application-level attack would hit that page &ndash; a technique to work out which pages would load the slowest, thus more vulnerable to an attack. Cross-referencing IPs with our database led us to Alex. This led to the discovery of the information posted in the previous sections.
 
 With the identities linked, the main Mannco.store staff received bans from the website, and SteamRep reinstated a tag on Alex's new Steam account upon our request. Following this incident, Mannco.store published [an article](https://archive.ph/hkDUL) still trying to claim that Alex and Peanuthero are two different people.
 
@@ -100,3 +100,5 @@ Alex has continued to launch DDoS attacks on the ScrapTF network since. Alex has
 It is not impossible, but highly improbable, that there are two Alexandre Gagnons from Quebec with similar backgrounds. But if that were true, the Alex of 2016 has all but disappeared, and the other Alex has come out of virtually nowhere, coincidentally with the same work colleagues.  
 
 This is pretty much where this story ends -- I find his personality fascinating, but more importantly, his identity and behaviour should remain permanently on record.
+
+*I am always interested any extra information to further complete Alex's biography &ndash; please send any tips to gagnon@fisk.cc.* 
