@@ -1,5 +1,5 @@
 name = "Sideshow"
-description = "I like PureRef - unfortunately, it doesn't work on my iPad because it's only made for the desktop. Sideshow is a HTML5 solution to bring a capable reference manager to the browser."
+description = "I like PureRef - unfortunately, it doesn't work on the iPad. Sideshow is a HTML5 solution to bring a capable reference manager to the browser, with an easy, tabbed interface suitable for touchscreens."
 summary = "Reference manager for artists and graphic designers"
 language = "TypeScript, Nuxt"
 date = "2022-"
