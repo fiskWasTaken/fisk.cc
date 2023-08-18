@@ -1,0 +1,8 @@
+name = "Idler"
+description = "The long-awaited sequel to an idle game I wrote in 2013. Coming soon!"
+summary = "The Hat-Based Idle Simulator"
+platform = "Web"
+date = "2023"
+url = "#"
+urlText = "idler.backpack.tf"
+imageUrl = "/img/idler.png"
