@@ -1,6 +1,6 @@
 name = "Idler"
-description = "The long-awaited sequel to an idle game I wrote in 2013. Coming soon!"
-summary = "The Hat-Based Idle Simulator"
+description = "The long-awaited sequel to an idle game I wrote in 2013."
+summary = "The Hat-Based Waiting Simulator"
 platform = "Web"
 date = "2023"
 url = "#"
