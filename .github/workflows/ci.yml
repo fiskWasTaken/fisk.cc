@@ -45,7 +45,7 @@ jobs:
         run: yarn
 
       - name: Build
-        run: yarn build
+        run: yarn generate
 
       - name: Deploy to production
         uses: easingthemes/ssh-deploy@main

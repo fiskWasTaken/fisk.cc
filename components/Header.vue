@@ -34,7 +34,7 @@
   height: 300px;
   margin-bottom: 3em;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 @keyframes anim {
