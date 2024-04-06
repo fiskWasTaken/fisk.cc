@@ -53,5 +53,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH2 }}
-          SOURCE: "./dist"
+          SOURCE: "./.output/public"
           TARGET: ${{ secrets.REMOTE_TARGET }}
