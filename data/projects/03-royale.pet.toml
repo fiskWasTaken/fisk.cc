@@ -1,8 +1,0 @@
-name = "royale.pet"
-description = "I reverse-engineered Super Animal Royale to provide this stats portal. royale.pet has been translated into over a dozen different languages by a team of community volunteers."
-summary = "Statistics and leaderboards for Super Animal Royale"
-language = "TypeScript, Nuxt"
-date = "2019-"
-url = "https://royale.pet"
-urlText = "royale.pet"
-imageUrl = "/img/skullcat3.png"

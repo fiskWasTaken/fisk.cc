@@ -1,6 +1,0 @@
-name="php-steamrep-api"
-summary="SteamRep reputation web API wrapper"
-description="SteamRep reputation web API wrapper to help retreive data for scammers and trusted users in the Steam trading ecosystem."
-language="PHP"
-url="https://github.com/fiskWasTaken/php-steamrep-api"
-urlText="GitHub"

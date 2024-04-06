@@ -1,8 +1,0 @@
-name = "backpack.tf"
-description = "backpack.tf has served as the Team Fortress 2 price guide for several years. The Elasticsearch-powered stats database keeps track of hundreds of millions of items; this data is used by community members to determine prices and track the account history of fraudulently-traded items."
-summary = "The definitive TF2 price guide"
-language = "PHP, Python, TypeScript"
-date = "2013-"
-url = "https://backpack.tf"
-urlText = "backpack.tf"
-imageUrl = "/img/bptf.png"

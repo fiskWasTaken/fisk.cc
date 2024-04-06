@@ -1,8 +1,0 @@
-name = "Stats Royale"
-description = "A brief stint at Stats Royale to move their Deck Builder to Elasticsearch. Moved large portions of a slow Laravel PHP API to Golang, to help mitigate downtime from surges in traffic."
-summary = "Deck Builder tuning"
-language = "Go"
-date = "2018-2019"
-url = "https://statsroyale.com"
-urlText = "Stats Royale"
-imageUrl = "/img/statsroyale.png"

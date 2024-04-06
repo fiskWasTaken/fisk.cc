@@ -1,8 +1,0 @@
-name = "Phasm8"
-description = "A Phasmophobia demake for Pico-8. A very technical puzzler designed for fans of the original game."
-summary = "Do you have a fear of ghosts?"
-platform = "Pico-8"
-date = "2022"
-url = "https://kemohaus.itch.io/phasm8"
-urlText = "itch.io"
-imageUrl = "/img/phasm8.png"

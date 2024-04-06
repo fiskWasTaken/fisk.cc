@@ -1,8 +1,0 @@
-name = "Kemobomb Remix"
-description = "A cute tile-dropping game for the Pico-8! Play the campaign mode, or play against someone else on the same device."
-summary = "Kemobomb is back!!"
-platform = "Pico-8"
-date = "2021"
-url = "https://kemohaus.itch.io/kemobomb-remix"
-urlText = "itch.io"
-imageUrl = "/img/kemobomb-remix.png"
