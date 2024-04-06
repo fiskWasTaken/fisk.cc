@@ -16,10 +16,36 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
+        node: [18]
 
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: ${{ matrix.node }}
+          check-latest: true
+
+      - name: Get yarn cache directory path 🛠
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache node_modules 📦
+        uses: actions/cache@v2.1.4
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies 👨🏻‍💻
+        run: yarn
+
+      - name: Build
+        run: yarn build
 
       - name: Deploy to production
         uses: easingthemes/ssh-deploy@main
@@ -27,13 +53,5 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH2 }}
-          SOURCE: "."
+          SOURCE: "./dist"
           TARGET: ${{ secrets.REMOTE_TARGET }}
-
-      - name: Build hugo project
-        uses: garygrossgarten/github-action-ssh@release
-        with:
-          command: cd ${{ secrets.REMOTE_TARGET }} && hugo
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          privateKey: ${{ secrets.SSH2 }}
