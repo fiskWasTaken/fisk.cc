@@ -292,11 +292,14 @@ body {
 }
 
 .projects-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   row-gap: $gutter;
   column-gap: $gutter;
+
+  @media (max-width: 850px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .text {

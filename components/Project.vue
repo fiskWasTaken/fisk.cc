@@ -101,10 +101,17 @@ $defunct: #c25900;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  transition: 0.3s;
+  transition: transform 0.3s, color 0.3s;
   cursor: pointer;
   overflow: hidden;
   text-decoration: none;
+
+  color: #000;
+  user-select: none;
+
+  @media (max-width: 850px) {
+    width: 100%;
+  }
 
   border: {
     radius: 1em;
@@ -132,7 +139,6 @@ $defunct: #c25900;
     font-size: 1.4em;
     font-weight: 600;
   }
-  color: #000;
 
   &__subtitle {
     font-size: 0.9em;
@@ -150,8 +156,6 @@ $defunct: #c25900;
     background-color: #fff;
     transform: scale(0.95);
   }
-
-  user-select: none;
 }
 </style>
 <script setup lang="ts">
