@@ -99,7 +99,7 @@ const games: ProjectProps[] = [
     tags: ["Pico-8"],
     color: "#ff6d00",
     icon: "./icons/phasm8.png",
-    subtitle: "32kb Phasmophobia Demake",
+    subtitle: "Phasmophobia in 32kb",
     year: "2022",
     url: "https://kemohaus.itch.io/phasm8"
   },
@@ -159,7 +159,7 @@ const projects: ProjectProps[] = [
     tags: ["nuxt"],
     color: "#0080ff",
     icon: "./icons/bptf-next.png",
-    subtitle: "Next-generation backpack.tf frontend",
+    subtitle: "Next-gen backpack.tf UI",
     year: "2021-",
     url: "https://next.backpack.tf"
   },
@@ -172,7 +172,7 @@ const projects: ProjectProps[] = [
     tags: ["nuxt"],
     color: "#ffa600",
     icon: "./icons/skullcat3.png",
-    subtitle: "Super Animal Royale stat reporting",
+    subtitle: "SAR stat tracking",
     year: "2020",
     url: "https://royale.pet"
   },
@@ -199,7 +199,7 @@ const projects: ProjectProps[] = [
     tags: ["php", "typescript"],
     color: "#00bbff",
     icon: "./icons/bptf.png",
-    subtitle: "Team Fortress 2 economy resource",
+    subtitle: "TF2 economy resource",
     year: "2013-",
     url: "https://backpack.tf"
   },
@@ -212,7 +212,7 @@ const projects: ProjectProps[] = [
     tags: ["php"],
     color: "#00ffdf",
     icon: "./icons/bazaar.png",
-    subtitle: "Team Fortress 2 trading platform",
+    subtitle: "TF2 trading platform",
     year: "2012-2023",
     defunct: true,
     url: "https://bazaar.tf"

@@ -128,6 +128,7 @@ $defunct: #c25900;
     background-position: center;
     margin: 0.3em;
     border-radius: 0.8em;
+    flex-shrink: 0;
   }
 
   &__right {
