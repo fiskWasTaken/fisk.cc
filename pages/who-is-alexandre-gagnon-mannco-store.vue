@@ -174,7 +174,7 @@
 
         <div class="quote">
           <div class="quote__text">"He doesn’t understand, or maybe he does, that just because the company who owns the IP is based out of Seychelles, and the whois on the IP says Seychelles, does not mean that the IP is pointing at a server out of Seychelles."</div>
-          <div class="quote__author">SIM-3183372, HackForums user</div>
+          <div class="quote__author"><a href="http://localhost:3000/archive/bpservers-scam-alert.html">SIM-3183372, HackForums user</a></div>
         </div>
 
         <p>
@@ -185,6 +185,15 @@
           Seasoned users suspected this was Alex based on his writing style, and further sleuthing leads to his next ban.
         </p>
 
+        <div class="quote">
+          <div class="quote__text">
+            So I’ll make this part quick because I don’t really remember who Peanuthero is, but apparently he scammed a few thousand dollars from users here and got himself perm banned. It has become pretty clear that SkylerRaine is here to proxy sell for Peanuthero. Here is an image of Skype showing Peanuthero advertising BPServers.ru:
+          </div>
+          <div class="quote__author"><a href="http://localhost:3000/archive/bpservers-scam-alert.html">SIM-3183372, HackForums user</a></div>
+        </div>
+
+        <img src="http://localhost:3000/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/yO5tJdL.png" />
+
         <h3>September 2016: manandco and ShadowHosting</h3>
 
         <p>
@@ -194,6 +203,10 @@
             href="/archive/shadowhosting.html">traced to the
           Netherlands</a>.
         </p>
+        <p>
+          Yet again, HackForums users identify this new user to be another sock of Alex's. A CloudFlare employee helps tie this with Alex's other projects, including layer7.pw (also previously featured on Acuata.com).
+        </p>
+        <img src="http://localhost:3000/archive/Community%20Alert%20Shadowhosting.net%20-%20Fake%20Bullet%20Proof%20Hosting%20-%20Ban%20Evasion%20-%20Proxy%20Selling%20-%20Printable%20Version_files/3kLdjRQ.png" />
         <p>
           After finally leaving the forum, Alex would continue hosting payment portals for BPServers.ru <a
             href="https://archive.md/HQa4P">through to
@@ -519,7 +532,11 @@
   }
 
   img {
-    width: 800px;
+    max-width: 800px;
+
+    @media (max-width: 800px) {
+      max-width: 100%;
+    }
   }
 }
 
