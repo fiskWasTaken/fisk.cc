@@ -162,11 +162,28 @@
           hosting from the
           Netherlands</a> at 200% markup via BPServers, his new bullet-proof service. Alex
           would assert his claims in private messages, to customers who knew how routing on the internet worked.
-          Seasoned
-          users identify that this might be Alex from his writing style, and further sleuthing leads to his next ban.
         </p>
 
-        <img src="/img/articles/skylerraine-dm.png"/>
+        <div class="quote">
+          <div class="quote__text">
+            "I attempted to explain all of this to SkylerRaine, but was met with a bunch of read PM’s, but no replies. The last thing he said to me was this:"
+          </div>
+        </div>
+
+        <img src="/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/ImRQ9pt.png"/>
+
+        <div class="quote">
+          <div class="quote__text">"He doesn’t understand, or maybe he does, that just because the company who owns the IP is based out of Seychelles, and the whois on the IP says Seychelles, does not mean that the IP is pointing at a server out of Seychelles."</div>
+          <div class="quote__author">SIM-3183372, HackForums user</div>
+        </div>
+
+        <p>
+          In other words, it is very easy to find out where the server resolving to an IP address roughly is.
+        </p>
+
+        <p>
+          Seasoned users suspected this was Alex based on his writing style, and further sleuthing leads to his next ban.
+        </p>
 
         <h3>September 2016: manandco and ShadowHosting</h3>
 
@@ -510,6 +527,22 @@
   padding-bottom: 1em;
   border-bottom: 1px solid #ccc;
   margin-bottom: 1em;
+}
+
+.quote {
+  &__text {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+
+  &__author {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    opacity: 0.7;
+    font-style: italic;
+  }
+
+  padding: 1em;
 }
 
 </style>
