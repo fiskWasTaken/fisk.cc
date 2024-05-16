@@ -192,7 +192,7 @@
           <div class="quote__author"><a href="http://localhost:3000/archive/bpservers-scam-alert.html">SIM-3183372, HackForums user</a></div>
         </div>
 
-        <img src="http://localhost:3000/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/yO5tJdL.png" />
+        <img src="/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/yO5tJdL.png" />
 
         <h3>September 2016: manandco and ShadowHosting</h3>
 
@@ -206,7 +206,7 @@
         <p>
           Yet again, HackForums users identify this new user to be another sock of Alex's. A CloudFlare employee helps tie this with Alex's other projects, including layer7.pw (also previously featured on Acuata.com).
         </p>
-        <img src="http://localhost:3000/archive/Community%20Alert%20Shadowhosting.net%20-%20Fake%20Bullet%20Proof%20Hosting%20-%20Ban%20Evasion%20-%20Proxy%20Selling%20-%20Printable%20Version_files/3kLdjRQ.png" />
+        <img src="/archive/Community%20Alert%20Shadowhosting.net%20-%20Fake%20Bullet%20Proof%20Hosting%20-%20Ban%20Evasion%20-%20Proxy%20Selling%20-%20Printable%20Version_files/3kLdjRQ.png" />
         <p>
           After finally leaving the forum, Alex would continue hosting payment portals for BPServers.ru <a
             href="https://archive.md/HQa4P">through to
