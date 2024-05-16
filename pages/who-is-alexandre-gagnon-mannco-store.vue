@@ -274,12 +274,8 @@
 
         <p>
           Mannco.trade and Mannco.store launched around this time. This is when <em>Peanuthero</em> stepped down, and
-          "Alex"
-          took his
-          place. Nobody knew who Alex was, and Alex had no history in the trading scene. While it was suspect that they
-          were
-          the same person, no concrete proof was ever surfaced, allowing him to operate this way for roughly a year.
-
+          "Alex" took his place. Nobody knew who Alex was, and Alex had no history in the trading scene. While it was suspected that they
+          were the same person, there was no concrete evidence at that moment, allowing him to operate this way for roughly a year.
         </p>
 
         <p>
@@ -291,6 +287,28 @@
           the
           footer of
           an old Mannco.trade page template which is <a href="https://archive.ph/mXnG8">still online today</a>.
+        </p>
+
+        <h3>Attacks on the ScrapTF network</h3>
+
+        <p>
+          Following a major feature release on Mannco.store in December of 2020, sites in the ScrapTF network
+          were being hit with DDoS attacks.
+        </p>
+
+        <p>
+          A certain IP address would browse to specific pages right before an application-level attack would hit that
+          page
+          &ndash; a technique to work out which pages would load the slowest, thus the more vulnerable to an attack.
+          Cross-referencing IPs with our database led us to Alex, and most of the information found in this article was first discovered.
+        </p>
+
+        <p>
+          With the identities linked, the main Mannco.store staff received bans from the website, and SteamRep
+          reinstated a
+          tag on Alex's new Steam account upon our request. Following this incident, Mannco.store published <a
+            href="https://archive.ph/hkDUL" target="_blank">an
+          article</a> claiming that Alex and Peanuthero are two different people.
         </p>
 
         <h3>Minelauva Holdings Limited and TF2Shop</h3>
@@ -329,30 +347,6 @@
           You can access the companies registrar e-search <a href="https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchForm.aspx?sc=0&cultureInfo=en-AU" target="_blank">here</a>.
         </p>
 
-      </div>
-
-      <div class="section">
-        <h2>Attacks on the ScrapTF network</h2>
-
-        <p>
-          Following a major feature release on Mannco.store in December of 2020, all three sites in the ScrapTF network
-          were being hit with DDoS attacks.
-        </p>
-
-        <p>
-          A certain IP address would browse to specific pages right before an application-level attack would hit that
-          page
-          &ndash; a technique to work out which pages would load the slowest, thus the more vulnerable to an attack.
-          Cross-referencing IPs with our database led us to Alex, and most of the information found in this article was first discovered.
-        </p>
-
-        <p>
-          With the identities linked, the main Mannco.store staff received bans from the website, and SteamRep
-          reinstated a
-          tag on Alex's new Steam account upon our request. Following this incident, Mannco.store published <a
-            href="https://archive.ph/hkDUL" target="_blank">an
-          article</a> claiming that Alex and Peanuthero are two different people.
-        </p>
       </div>
 
       <div class="section">
