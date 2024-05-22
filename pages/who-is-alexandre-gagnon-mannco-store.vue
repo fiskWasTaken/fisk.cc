@@ -425,12 +425,8 @@
         <p>
           ΞΑΝΘΟΣ ΙΩΑΝΝΟΥ (XANTHOS IOANNOU) is listed as Director and was only added <a href="https://archive.is/Tw2kl">sometime
           after July 2023</a>. ΙΩΑΝΝΗΣ ΠΑΠΑΝΔΡΕΟΥ (IOANNIS PAPANDREOU) is listed as
-          Secretary.
-          The <a href="https://archive.is/LweMf">b2bhint</a> profile indicates these names are either extraordinarily
-          common for
-          chief staff in a country of 1.2 million people, or they make a bit of money by hosting shell companies.
-
-          I don't speak Greek. If you can help solve this mystery, let me know.
+          Secretary. These names appear across hundreds of companies on this registrar, and are very likely names used
+          as part of third-party offshore company formation.
         </p>
 
         <p>
@@ -510,6 +506,10 @@
           Registered in the UK under Alexandre Gagnon and dissolved as of 2021. For some reason, Alex put his
           nationality as
           'British' in the original filing before changing it to Canadian.
+        </p>
+        <p>
+          Alex used offshore registration agency <a href="https://www.turnerlittle.com/">Turner Little</a> to register
+          this company. I'm not sure why he dissolved it.
         </p>
         <h3>
           Minelauva Holdings Limited
