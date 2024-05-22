@@ -21,8 +21,10 @@
           Thankfully, archive.is does not seem to care about frivolous takedown requests, so those are preserved.
         </p>
         <p>
-          People still seem to be interested in his identity since I get emails about it. It's for the best that this information stays current, because this is someone who tries very hard to scrub
-          their identity from the internet. Bitrot is also a problem and as time goes on, websites die. This removes vital context from forum posts when they embed images from dead image hosts.
+          People still seem to be interested in his identity since I get emails about it. It's for the best that this
+          information stays current, because this is someone who tries very hard to scrub
+          their identity from the internet. Bitrot is also a problem and as time goes on, websites die. This removes
+          vital context from forum posts when they embed images from dead image hosts.
         </p>
         <p>
           The article has been updated with dead links removed, and has virtually been rewritten yet again for improved
@@ -86,6 +88,10 @@
           forum</a>.
         </p>
         <img src="/img/articles/peanuthero-dofus-dmca.png"/>
+        <div class="alert alert-update">
+          This DMCA notice was taken from a later page in this thread from DozenOfElites.com. Unfortunately, this forum
+          is now offline.
+        </div>
         <p>
           It is presumed that Alex did not realise that DMCA requests are forwarded to the complainant. Alex reported
           using
@@ -94,6 +100,7 @@
         <p>
           Alex identified himself as the owner of AsterionServeurs on his former personal website, peanuthero.com.
         </p>
+        <img src="/img/articles/peanuthero.com.png"/>
         <div class="alert alert-update">
           Since this article was published, peanuthero.com was scrubbed from the Wayback Machine. Alex did not, however,
           take down the AsterionServeurs Facebook page where he <a href="https://archive.md/UjCUw" target="_blank">mentions
@@ -155,6 +162,11 @@
           the upstream</a> to back up his lie.
         </p>
 
+        <p>
+          After community investigation, Peanuthero was banned from HackForums. This did not stop him from returning
+          with other aliases to advertise scam services.
+        </p>
+
         <h3>August 2016: SkylerRaine and BPServers</h3>
 
         <p>
@@ -166,33 +178,49 @@
 
         <div class="quote">
           <div class="quote__text">
-            "I attempted to explain all of this to SkylerRaine, but was met with a bunch of read PM’s, but no replies. The last thing he said to me was this:"
+            "I attempted to explain all of this to SkylerRaine, but was met with a bunch of read PM’s, but no replies.
+            The last thing he said to me was this:"
           </div>
         </div>
 
-        <img src="/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/ImRQ9pt.png"/>
+        <img
+            src="/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/ImRQ9pt.png"/>
 
         <div class="quote">
-          <div class="quote__text">"He doesn’t understand, or maybe he does, that just because the company who owns the IP is based out of Seychelles, and the whois on the IP says Seychelles, does not mean that the IP is pointing at a server out of Seychelles."</div>
-          <div class="quote__author"><a href="http://localhost:3000/archive/bpservers-scam-alert.html">SIM-3183372, HackForums user</a></div>
+          <div class="quote__text">"He doesn’t understand, or maybe he does, that just because the company who owns the
+            IP is based out of Seychelles, and the whois on the IP says Seychelles, does not mean that the IP is
+            pointing at a server out of Seychelles."
+          </div>
+          <div class="quote__author"><a href="http://localhost:3000/archive/bpservers-scam-alert.html">SIM-3183372,
+            HackForums user</a></div>
         </div>
 
         <p>
-          In other words, it is very easy to find out where the server resolving to an IP address roughly is.
+          WHOIS is a method to look up information on an IP address. The owner of an IP address is able to add remarks
+          such
+          as a country and a point of contact. However, this information does not necessarily correspond to where the
+          server is physically located. Commands such as traceroute can reveal the path taken from a source address to
+          the target, and this likely revealed a route to the Netherlands.
         </p>
 
         <p>
-          Seasoned users suspected this was Alex based on his writing style, and further sleuthing leads to his next ban.
+          Seasoned users suspected this was Alex based on his writing style, and further sleuthing leads to his next
+          ban.
         </p>
 
         <div class="quote">
           <div class="quote__text">
-            So I’ll make this part quick because I don’t really remember who Peanuthero is, but apparently he scammed a few thousand dollars from users here and got himself perm banned. It has become pretty clear that SkylerRaine is here to proxy sell for Peanuthero. Here is an image of Skype showing Peanuthero advertising BPServers.ru:
+            So I’ll make this part quick because I don’t really remember who Peanuthero is, but apparently he scammed a
+            few thousand dollars from users here and got himself perm banned. It has become pretty clear that
+            SkylerRaine is here to proxy sell for Peanuthero. Here is an image of Skype showing Peanuthero advertising
+            BPServers.ru:
           </div>
-          <div class="quote__author"><a href="http://localhost:3000/archive/bpservers-scam-alert.html">SIM-3183372, HackForums user</a></div>
+          <div class="quote__author"><a href="http://localhost:3000/archive/bpservers-scam-alert.html">SIM-3183372,
+            HackForums user</a></div>
         </div>
 
-        <img src="/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/yO5tJdL.png" />
+        <img
+            src="/archive/Community%20Alert%20BPServers,%20a%20_Bullet%20Proof%20Host_,%20Just%20Reselling%20from%20Ecatel%20-%20Also%20Ran%20by%20Peanuthero%20-%20Printable%20Version_files/yO5tJdL.png"/>
 
         <h3>September 2016: manandco and ShadowHosting</h3>
 
@@ -204,9 +232,11 @@
           Netherlands</a>.
         </p>
         <p>
-          Yet again, HackForums users identify this new user to be another sock of Alex's. A CloudFlare employee helps tie this with Alex's other projects, including layer7.pw (also previously featured on Acuata.com).
+          Yet again, HackForums users identify this new user to be another sock of Alex's. A CloudFlare employee helps
+          tie this with Alex's other projects, including layer7.pw (also previously featured on Acuata.com).
         </p>
-        <img src="/archive/Community%20Alert%20Shadowhosting.net%20-%20Fake%20Bullet%20Proof%20Hosting%20-%20Ban%20Evasion%20-%20Proxy%20Selling%20-%20Printable%20Version_files/3kLdjRQ.png" />
+        <img
+            src="/archive/Community%20Alert%20Shadowhosting.net%20-%20Fake%20Bullet%20Proof%20Hosting%20-%20Ban%20Evasion%20-%20Proxy%20Selling%20-%20Printable%20Version_files/3kLdjRQ.png"/>
         <p>
           After finally leaving the forum, Alex would continue hosting payment portals for BPServers.ru <a
             href="https://archive.md/HQa4P">through to
@@ -304,12 +334,14 @@
 
         <p>
           Mannco.trade and Mannco.store launched around this time. This is when <em>Peanuthero</em> stepped down, and
-          "Alex" took his place. Nobody knew who Alex was, and Alex had no history in the trading scene. While it was suspected that they
-          were the same person, there was no concrete evidence at that moment, allowing him to operate this way for roughly a year.
+          "Alex" took his place. Nobody knew who Alex was, and Alex had no history in the trading scene. While it was
+          suspected that they
+          were the same person, there was no concrete evidence at that moment, allowing him to operate this way for
+          roughly a year.
         </p>
 
         <p>
-          Certain Mannco.store staff have helped Alex with his scams. The footer of HackForums-era BPServers.ru
+          The footer of HackForums-era BPServers.ru
           references
           web
           designer brand <em>wbxdsg</em>, a project of <a href="https://archive.ph/B1CbV">Nicolas Durand</a>. This name
@@ -317,6 +349,13 @@
           the
           footer of
           an old Mannco.trade page template which is <a href="https://archive.ph/mXnG8">still online today</a>.
+        </p>
+
+        <img src="/img/articles/wbxdsg.png" width="320"/>
+        <img src="/img/articles/wbxdsg-bpservers.png" width="220"/>
+
+        <p>
+          This means other Mannco.trade staff have collaborated with Alex since scamming on HackForums.
         </p>
 
         <h3>Attacks on the ScrapTF network</h3>
@@ -328,9 +367,9 @@
 
         <p>
           A certain IP address would browse to specific pages right before an application-level attack would hit that
-          page
-          &ndash; a technique to work out which pages would load the slowest, thus the more vulnerable to an attack.
-          Cross-referencing IPs with our database led us to Alex, and most of the information found in this article was first discovered.
+          page&mdash;a technique to work out which pages would load the slowest, thus the more vulnerable to an attack.
+          Cross-referencing IPs with our database led us to Alex, and most of the information found in this article was
+          first discovered.
         </p>
 
         <p>
@@ -338,43 +377,65 @@
           reinstated a
           tag on Alex's new Steam account upon our request. Following this incident, Mannco.store published <a
             href="https://archive.ph/hkDUL" target="_blank">an
-          article</a> claiming that Alex and Peanuthero are two different people.
+          article</a> reasserting that Alex and Peanuthero are two different people.
         </p>
 
         <h3>Minelauva Holdings Limited and TF2Shop</h3>
 
         <div class="alert alert-update">
-          This is a new section. The scrubbing of Acuata.com removed evidence of Anthony Garcia's involvement, but this ties it back in nicely.
+          This is a new section. The scrubbing of Acuata.com removed evidence of Anthony Garcia's involvement, but this
+          ties it back in nicely.
         </div>
 
         <p>
-          There is a curious company in the footer of several of Alex's websites. It is Minelauva Holdings Limited, a company registered in Cyprus.
+          There is a curious company in the footer of several of Alex's websites. It is Minelauva Holdings Limited, a
+          company registered in Cyprus.
         </p>
 
         <p>
-          Anthony Garcia is referenced earlier in this article, as a listed employee of Acuata. Anthony Garcia lists himself as a <a href="https://archive.is/BdBsg">developer of TF2Shop</a> and several sister sites. The site has changed a lot over the years.
+          Anthony Garcia is referenced earlier in this article, as a listed employee of Acuata. Anthony Garcia lists
+          himself as a <a href="https://archive.is/BdBsg">developer of TF2Shop</a> and several sister sites. The site
+          has changed a lot over the years.
         </p>
 
         <p>
-          TF2Shop, Mannco.store and Mannco.trade have Minelauva Holdings Limited in their footers and terms of services, and TF2Shop appears to now use the <a href="https://archive.is/deocj">exact same page template</a>. We can reasonably deduce that TF2Shop is now owned by Alex.
+          TF2Shop, Mannco.store and Mannco.trade have Minelauva Holdings Limited in their footers and terms of services,
+          and TF2Shop appears to now use the <a href="https://archive.is/deocj">exact same page template</a>. We can
+          reasonably deduce that TF2Shop is now owned by Alex.
         </p>
 
         <p>
-          An archive of <a href="https://archive.ph/BVLVv">status.minelauvaholdings.com</a> shows us it only had anything to do with Alex's websites. It is just a status page showing graphs for Mannco.store services et al.
+          An archive of <a href="https://archive.ph/BVLVv">status.minelauvaholdings.com</a> shows us that the operations
+          of Minelauva Holdings Limited only go as far Alex's websites. It is just a status page showing graphs for
+          Mannco.store services et al.
         </p>
 
         <p>
-          But what exactly <em>is</em> Minelauva Holdings Limited? It's not registered to Alexandre Gagnon, but these people:
+          But what exactly <em>is</em> Minelauva Holdings Limited? It's not registered to Alexandre Gagnon, but these
+          people:
         </p>
 
-        <img src="/img/articles/minelauva.png" />
+        <img src="/img/articles/minelauva.png"/>
 
         <p>
-          VARRINGTON INTERNATIONAL LLC is not a entity that exists anywhere. Presumably, the other names listed have nothing to do with anything. I don't speak Greek. If you can solve this mystery, let me know.
+          VARRINGTON INTERNATIONAL LLC is not a real entity and no record of this company exists anywhere. This leaves
+          the other names listed here up to scrutiny.
         </p>
 
         <p>
-          You can access the companies registrar e-search <a href="https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchForm.aspx?sc=0&cultureInfo=en-AU" target="_blank">here</a>.
+          ΞΑΝΘΟΣ ΙΩΑΝΝΟΥ (XANTHOS IOANNOU) is listed as Director and was only added <a href="https://archive.is/Tw2kl">sometime
+          after July 2023</a>. ΙΩΑΝΝΗΣ ΠΑΠΑΝΔΡΕΟΥ (IOANNIS PAPANDREOU) is listed as
+          Secretary.
+          The <a href="https://archive.is/LweMf">b2bhint</a> profile indicates these names are either extraordinarily
+          common for
+          chief staff in a country of 1.2 million people, or they make a bit of money by hosting shell companies.
+
+          I don't speak Greek. If you can help solve this mystery, let me know.
+        </p>
+
+        <p>
+          You can access the Cyprus' companies registrar e-search <a
+            href="https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchForm.aspx?sc=0&cultureInfo=en-AU" target="_blank">here</a>.
         </p>
 
       </div>
@@ -461,22 +522,41 @@
             Registered At: Κυπράνορος, 13, EVI BUILDING, Floor 2, Flat/Office 201, 1061, Λευκωσία, Κύπρος
           </div>
           <div class="company__filing">
-            Filing: <a href="https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchForm.aspx?sc=0&cultureInfo=en-AU">Cyprus companies registry</a>
+            Filing: <a href="https://efiling.drcor.mcit.gov.cy/DrcorPublic/SearchForm.aspx?sc=0&cultureInfo=en-AU">Cyprus
+            companies registry</a>
           </div>
         </div>
         <p>
-          A mysterious company not directly registered to Alex, but <em>is</em> registered to a fake parent company. In the footer of various websites.
+          A mysterious company not directly registered to Alex, but <em>is</em> registered to a fake parent company. In
+          the footer of various websites.
         </p>
       </div>
 
       <div class="section">
         <h2>Other Stuff</h2>
         <ul>
-          <li><a href="https://www.youtube.com/@Yrow76/videos">Alex's old Youtube channel</a>. One of Alex's older aliases is <a href="https://archive.is/84OwV" target="_blank">yrow76</a>. It's just Dofus and Minecraft videos.</li>
-          <li>Amusingly, a Peanuthero is still active on a forum for carding scams, <em><a href="https://archive.is/zP6mg">today!!</a></em>
-            He doesn't post anymore, so I'm not sure what he is doing. These posts are from 2013 and there's nothing to corroborate it with another identity.</li>
-          <li><a href="https://archive.is/70n28">spyroow</a> is another old Skype alias. Peanuthero also used to go by "Spyrow" on reality-gaming.fr.</li>
-          <li>Again, peanuthero shows up in <a href="https://archive.is/syTcE">a cache for another closed carding site</a>.</li>
+          <li><a href="https://www.youtube.com/@Yrow76/videos">Alex's old Youtube channel</a>. One of Alex's older
+            aliases is <a href="https://archive.is/84OwV" target="_blank">yrow76</a>. It's just Dofus and Minecraft
+            videos.
+          </li>
+          <li>Amusingly, a Peanuthero is still active on a forum for carding scams, <em><a
+              href="https://archive.is/zP6mg">today!!</a></em>
+            He doesn't post anymore, so I'm not sure what he is doing. These posts are from 2013 and there's nothing to
+            corroborate it with another identity.
+          </li>
+          <li><a href="https://archive.is/70n28">spyroow</a> is another old Skype alias. Peanuthero also used to go by
+            "Spyrow" on reality-gaming.fr.
+          </li>
+          <li>Again, peanuthero shows up in <a href="https://archive.is/syTcE">a cache for another closed carding
+            site</a>.
+          </li>
+          <li>
+            Peanuthero's HackForums accounts included: <a
+              href="https://hackforums.net/member.php?action=profile&uid=786597">Peanuthero</a> (deleted), <a
+              href="https://hackforums.net/member.php?action=profile&uid=2767097">Peanuthero_</a>, <a
+              href="https://hackforums.net/member.php?action=profile&uid=3258067">SkylerRaine</a> and <a
+              href="https://hackforums.net/member.php?action=profile&uid=3059370">manandco</a>.
+          </li>
         </ul>
       </div>
 
@@ -505,6 +585,7 @@
   list-style-type: none;
   padding: 0;
   column-gap: 1em;
+  flex-wrap: wrap;
 }
 
 .alert-update {
