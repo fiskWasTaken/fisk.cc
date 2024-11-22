@@ -127,6 +127,18 @@ const games: ProjectProps[] = [
 
 const projects: ProjectProps[] = [
   {
+    title: "KEMOHAUS",
+    description: `
+    <p>A studio focused on cute games. Now published on Steam.</p>
+`,
+    tags: ["godot"],
+    color: "#1a4b5d",
+    icon: "./icons/kemohaus.png",
+    subtitle: "Game development studio",
+    year: "2024",
+    url: "https://kemo.haus"
+  },
+  {
     title: "QRD",
     description: `
     <p>QR code generator. No sign-ups. No link tracking. Just generate a QR code.</p>
